@@ -225,7 +225,7 @@ body {
     .container {
       .navbar-header {
         width: 14%;
-        margin-right: 45px;
+        margin-right: 0;
         .nav-logo {
           background: #fff;
           padding: 14px 0 0 10px;
@@ -247,7 +247,7 @@ body {
             float: left;
           }
           div:first-child {
-            width: 35%;
+            width: 37%;
           }
           label {
             font-weight: 300;
@@ -451,10 +451,11 @@ body {
           margin-right: 0;
         }
         .translate-container {
-          margin: 18px 0;
+          margin: 18px 145px;
+          float: right;
           form {
             div:first-child {
-              width: 43%;
+              width: 45%;
             }
           }
         }
@@ -470,6 +471,9 @@ body {
       .container {
         .navbar-header {
           margin-right: 0;
+        }
+        .navbar-collapse {
+          padding: 0;
         }
         .translate-container {
           width: 100%;
@@ -514,6 +518,8 @@ body {
           background-color: #e95853;
           width: 109%;
           margin-top: 10px;
+          overflow: hidden;
+          padding-left: 10px;
         }
         .translate-container {
           width: 100%;
