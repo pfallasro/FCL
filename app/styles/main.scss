@@ -589,3 +589,74 @@ body {
     background-color: #0e76bd;
   }
 }
+
+/*Proyectos Sociales*/
+
+.proyectos-title {
+  background-image: url("../images/proyectos_logo.png");
+  background-repeat: no-repeat;
+  background-size: 12%;
+  padding-left: 47px;
+  height: 45px;
+  color: #0168b3;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.proyect-info-container {
+  div {
+    width: 21%;
+    float: left;
+    margin: 20px 13px;
+    span {
+      padding: 10px;
+      width: 20.2%;
+      text-align: center;
+      background-color: rgba(218, 214, 214, 0.85);
+      color: #6d6e72;
+      z-index: 1;
+      position: absolute;
+      font-weight: 600;
+      font-size: 15px;
+    }
+    span.two-line-title {
+      padding: 0;
+    }
+    img {
+      width: 100%;
+      min-height: 160px;
+    }
+    a {
+      background-color: #0168b3;
+      padding: 5px;
+      width: 100%;
+      display: inline-block;
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 12px;
+    }
+  }
+  div:nth-child(2),
+  div:nth-child(7),
+  div:nth-child(10) {
+    a {
+      background-color: #8ec63f; // green
+    }
+  }
+  div:nth-child(3),
+  div:nth-child(6),
+  div:nth-child(11) {
+    a {
+      background-color: #f1592a; // orange
+    }
+  }
+  div:nth-child(4),
+  div:nth-child(5),
+  div:nth-child(12) {
+    a {
+      background-color: #f7941d; // yellow
+    }
+  }  
+} 

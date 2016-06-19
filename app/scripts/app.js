@@ -29,6 +29,10 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/proyectos', {
+        templateUrl: 'views/proyectosSociales.html'
+        // controller: 'ProyectosCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
