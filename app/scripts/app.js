@@ -33,6 +33,10 @@ angular
         templateUrl: 'views/proyectosSociales.html'
         // controller: 'ProyectosCtrl'
       })
+      .when('/culturaAmbiental', {
+        templateUrl: 'views/culturaAmbiental.html'
+        // controller: 'ProyectosCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

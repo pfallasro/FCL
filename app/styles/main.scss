@@ -185,6 +185,7 @@ body {
 }
 
 /* Responsive: Portrait tablets and up */
+/* iPad screen size */
 @media screen and (min-width: 768px) {
   .container {
     max-width: 1200px;
@@ -564,6 +565,18 @@ body {
   }
 }
 
+/* iPad screen size */
+@media screen and (max-width: 768px) {
+  /*Proyectos Sociales*/
+  .proyectos-title {
+    padding-top: 20px;
+    padding-left: 92px !important;
+    height: 85px !important;
+    font-size: 37px !important;
+  }
+}
+
+/* iPhone 6 Plus screen size */
 @media screen and (max-width: 414px) {
   /*Proyectos Sociales*/
   .proyect-info-container {
@@ -575,6 +588,7 @@ body {
   }
 }
 
+/* iPhone 6 screen size */
 @media screen and (max-width: 375px) {
   /*Proyectos Sociales*/
   .proyect-info-container {
@@ -589,6 +603,7 @@ body {
   }
 }
 
+/* iPhone 5 screen size */
 @media screen and (max-width: 320px) {
   /*Proyectos Sociales*/
   .proyect-info-container {
@@ -666,16 +681,33 @@ body {
 
 /*Proyectos Sociales*/
 
+.proyectos-container {
+  padding: 45px 0;
+}
+
 .proyectos-title {
   background-image: url("../images/proyectos_logo.png");
   background-repeat: no-repeat;
-  background-size: 12%;
-  padding-left: 47px;
-  height: 45px;
+  background-size: 16%;
+  padding-left: 66px;
+  height: 66px;
   color: #0168b3;
   font-weight: 600;
   text-transform: uppercase;
   display: inline-block;
+  margin: 20px 0;
+  font-size: 24px;
+  letter-spacing: 3px;
+  span {
+    font-size: 36px;
+    letter-spacing: 0;
+  }
+}
+
+.proyectos-text {
+  p {
+    color: #6e6f73;
+  }
 }
 
 .proyect-info-container {
