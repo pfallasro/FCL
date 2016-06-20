@@ -462,6 +462,15 @@ body {
       }
     }
   }
+  /*Proyectos Sociales*/
+  .proyect-info-container {
+    div {
+      width: 29% !important;
+      span {
+        width: 27.6% !important;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -487,6 +496,14 @@ body {
             }
           }
         }
+      }
+    }
+  }
+  /* Proyectos Sociales */
+  .proyect-info-container {
+    div {
+      span {
+        width: 27.8% !important;
       }
     }
   }
@@ -534,6 +551,63 @@ body {
           }
         }
       }
+    }
+  }
+  /*Proyectos Sociales*/
+  .proyect-info-container {
+    div {
+      width: 42% !important;
+      span {
+        width: 40.3% !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  /*Proyectos Sociales*/
+  .proyect-info-container {
+    div {
+      span {
+        width: 39% !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /*Proyectos Sociales*/
+  .proyect-info-container {
+    div {
+      span {
+        width: 38.7% !important;
+      }
+      span.two-line-title {
+        padding: 10px !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /*Proyectos Sociales*/
+  .proyect-info-container {
+    div {
+      width: 92% !important;
+      span {
+        width: 83.3% !important;
+        padding: 10px !important;
+      }
+      span.two-line-title {
+        padding: 0 !important;
+      }
+    }
+  }
+  .mobile-nav {
+    button {
+      width: 19% !important;
+      padding: 1px !important;
+      margin: 0 !important;
     }
   }
 }
