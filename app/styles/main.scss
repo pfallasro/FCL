@@ -574,6 +574,30 @@ body {
     height: 85px !important;
     font-size: 37px !important;
   }
+  /* Cultura Ambiental */
+  #culturaAmbiental {
+    .proyectos-text {
+      .proyect-info-container {
+        div {
+          margin: 0 35%;
+          span {
+            width: 29% !important;
+          }
+          .lower-bar {
+            width: 100% !important;
+            margin: 0;
+          }
+        }
+      }
+    }
+    .col-md-8 {
+      .row {
+        .galeria-container {
+          margin: 0 15px;
+        }
+      }
+    }
+  }
 }
 
 /* iPhone 6 Plus screen size */
@@ -583,6 +607,24 @@ body {
     div {
       span {
         width: 39% !important;
+      }
+    }
+  }
+  /* Cultura Ambiental */
+  #culturaAmbiental {
+    .proyectos-text {
+      .proyectos-title {
+        padding-top: 0;
+      }
+      .proyect-info-container {
+        div {
+          margin: 0 26%;
+          span {
+            width: 42% !important;
+          }
+          .lower-bar {
+          }
+        }
       }
     }
   }
@@ -598,6 +640,14 @@ body {
       }
       span.two-line-title {
         padding: 10px !important;
+      }
+    }
+  }
+  /* Cultura Ambiental */
+  #culturaAmbiental {
+    .proyectos-text {
+      .proyectos-title {
+        padding-left: 81px !important;
       }
     }
   }
@@ -623,6 +673,32 @@ body {
       width: 19% !important;
       padding: 1px !important;
       margin: 0 !important;
+    }
+  }
+
+  .footer {
+    .container {
+      ul {
+        float: right;
+        padding-left: 0;
+      }
+    }
+  }
+
+  /* Cultura Ambiental */
+  #culturaAmbiental {
+    .proyectos-text {
+      .proyectos-title {
+        padding-left: 62px !important;
+      }
+      .proyect-info-container {
+        div {
+          margin: 0 4%;
+          span {
+            width: 92% !important;
+          }
+        }
+      }
     }
   }
 }
@@ -680,9 +756,24 @@ body {
 }
 
 /*Proyectos Sociales*/
-
 .proyectos-container {
   padding: 45px 0;
+  .proyectos-text {
+    .proyect-info-container {
+      div {
+        width: 44%;
+        span {
+          width: 44%;
+        }
+        .lower-bar {
+          background-color: #8ec63f;
+          width: 100%;
+          height: 27px;
+          margin: 0;
+        }
+      }
+    }
+  }
 }
 
 .proyectos-title {
