@@ -778,6 +778,33 @@ body {
   }
 }
 
+/*Cultura Ambiental Desktop*/
+#culturaAmbiental {
+  .proyectos-text {
+    .proyectos-title {
+      width: 96%;
+    } 
+  }
+  .col-md-8 {
+    .row {
+      .galeria-container {
+        margin-left: 14px;
+      }
+    }
+  }
+  h3 {
+    font-size: 30px;
+    color: #0168b3;
+    text-transform: uppercase;
+  }
+  p {
+    color: #6e6f73;
+  }
+  .cultura-amb-blue {
+    color: #0168b3;
+  }
+}
+
 .proyectos-title {
   background-image: url("../images/proyectos_logo.png");
   background-repeat: no-repeat;
