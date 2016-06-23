@@ -31,11 +31,11 @@ angular
       })
       .when('/proyectos', {
         templateUrl: 'views/proyectosSociales.html'
-        // controller: 'ProyectosCtrl'
+        // controller: 'proyectos'
       })
       .when('/culturaAmbiental', {
         templateUrl: 'views/culturaAmbiental.html'
-        // controller: 'ProyectosCtrl'
+        // controller: 'culturaAmbiental'
       })
       .otherwise({
         redirectTo: '/'
