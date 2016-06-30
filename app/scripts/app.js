@@ -37,6 +37,10 @@ angular
         templateUrl: 'views/culturaAmbiental.html'
         // controller: 'culturaAmbiental'
       })
+      .when('/centroDeLiderazgo', {
+        templateUrl: 'views/centroDeLiderazgo.html'
+        // controller: 'centroDeLiderazgo'
+      })
       .otherwise({
         redirectTo: '/'
       });
