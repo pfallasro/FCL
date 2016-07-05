@@ -434,6 +434,34 @@ body {
   }
 }
 
+.agendaHeading {
+  li {
+    background-color: #0168b3;
+    list-style: none;
+    width: 13%;
+    color: #fff;
+    float: left;
+    padding: 10px 0;
+    text-align: center;
+    margin-right: 3px;
+  }
+}
+
+.agendaTableContent {
+  li {
+    background-color: #cdced0;
+    list-style: none;
+    width: 13%;
+    color: #6e6f73;
+    float: left;
+    max-height: 40px;
+    min-height: 40px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 3px 3px 0 0;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .desktop-nav {
     display: none;
