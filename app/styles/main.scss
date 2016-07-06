@@ -434,31 +434,39 @@ body {
   }
 }
 
-.agendaHeading {
-  li {
-    background-color: #0168b3;
-    list-style: none;
-    width: 13%;
-    color: #fff;
-    float: left;
-    padding: 10px 0;
-    text-align: center;
-    margin-right: 3px;
-  }
-}
-
-.agendaTableContent {
-  li {
-    background-color: #cdced0;
-    list-style: none;
-    width: 13%;
-    color: #6e6f73;
-    float: left;
-    max-height: 40px;
-    min-height: 40px;
-    padding: 10px 0;
-    text-align: center;
-    margin: 3px 3px 0 0;
+#centroDeLiderazgo {
+  .agendaQuincenal {
+    h3 {
+      color: #0168b3;
+      font-size: 30px;
+      text-transform: uppercase;
+      margin-left: 40px;
+    }
+    ul {
+      li {
+        list-style: none;
+        width: 19%;
+        float: left;
+        padding: 10px 0;
+        text-align: center;
+      }
+    }
+    .agendaHeading {
+      li {
+        background-color: #0168b3;
+        color: #fff; 
+        margin-right: 3px;
+      }
+    }
+    .agendaTableContent {
+      li {
+        background-color: #cdced0;
+        color: #6e6f73;
+        max-height: 40px;
+        min-height: 40px;
+        margin: 3px 3px 0 0;
+      }
+    }
   }
 }
 
@@ -628,6 +636,23 @@ body {
       }
     }
   }
+   /* Centro De Liderazgo */
+  #centroDeLiderazgo {
+    .proyectos-title {
+      margin-left: 8% !important;
+    }
+    .agendaQuincenal {
+      h3 {
+        margin-left: 0;
+      }
+      ul {
+        padding: 0;
+        li {
+          width: 19.5%;
+        }
+      }
+    }
+  }
 }
 
 /* iPhone 6 Plus screen size */
@@ -660,6 +685,20 @@ body {
       }
     }
   }
+   /* Centro De Liderazgo */
+  #centroDeLiderazgo {
+    .proyectos-title {
+      padding-top: 0;
+      padding-left: 68px !important;
+    }
+    .agendaQuincenal {
+      ul {
+        li {
+          width: 19.2%;
+        }
+      }
+    }
+  }
 }
 
 /* iPhone 6 screen size */
@@ -681,6 +720,21 @@ body {
       .proyectos-title {
         padding-left: 66px !important;
         margin-left: 8% !important;
+      }
+    }
+  }
+   /* Centro De Liderazgo */
+  #centroDeLiderazgo {
+    .proyectos-title {
+      padding-left: 60px !important;
+      margin-left: 4% !important;
+    }
+    .agendaQuincenal {
+      ul {
+        li {
+          font-size: 12px;
+          width: 19.1%;
+        }
       }
     }
   }
@@ -731,6 +785,24 @@ body {
           span {
             width: 92% !important;
           }
+        }
+      }
+    }
+  }
+   /* Centro De Liderazgo */
+  #centroDeLiderazgo {
+    .proyectos-title {
+      margin-left: 0 !important;
+      font-size: 31px !important;
+    }
+    .agendaQuincenal {
+      h3 {
+        font-size: 27px;
+      }
+      ul {
+        li {
+          font-size: 11px;
+          width: 18.9%;
         }
       }
     }
