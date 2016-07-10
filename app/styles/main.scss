@@ -434,59 +434,59 @@ body {
   }
 }
 
-#centroLiderazgoMenu {
-  position: fixed;
-  top: 0;
-  left: -14px;
-  z-index: 999;
-  width: 328px;
-  -webkit-transition: all linear .15s;
-  -moz-transition: all linear .15s;
-  -o-transition: all linear .15s;
-  transition: all linear .15s;
-  div {
-    margin-top: 117%;
-    ul {
-    padding-left: 0;
-    padding-right: 28px;
-    list-style: none; 
-    height: 40px;
-      li {
-        text-align: center;
-        width: 64%;
-        position: relative;
-        transform-origin: 0 0;
-        padding-right: 38px;
-        transform: skew(35deg);
-        background-color: #0e76bd;
-        margin-bottom: 15px;
-        a {
-          span {
-            transform: skew(-35deg);
-            display: block;
-            color: #fff;
-            padding: 8px 0;
-            background-color: #0e76bd;
-            margin-left: -12px;
-            text-align: left;
-            padding-left: 20px;
-          }
-        }
-        a:hover {
-          text-decoration: none;
-        }
-      }
-      .selected-opt {
-        background-color: #e95853;
-        a {
-          span {
-            background-color: #e95853;
-          }
-        }
-      }
-    }
-  }
-}
+// #centroLiderazgoMenu {
+//   position: fixed;
+//   top: 0;
+//   left: -14px;
+//   z-index: 999;
+//   width: 328px;
+//   -webkit-transition: all linear .15s;
+//   -moz-transition: all linear .15s;
+//   -o-transition: all linear .15s;
+//   transition: all linear .15s;
+//   div {
+//     margin-top: 117%;
+//     ul {
+//     padding-left: 0;
+//     padding-right: 28px;
+//     list-style: none; 
+//     height: 40px;
+//       li {
+//         text-align: center;
+//         width: 64%;
+//         position: relative;
+//         transform-origin: 0 0;
+//         padding-right: 38px;
+//         transform: skew(35deg);
+//         background-color: #0e76bd;
+//         margin-bottom: 15px;
+//         a {
+//           span {
+//             transform: skew(-35deg);
+//             display: block;
+//             color: #fff;
+//             padding: 8px 0;
+//             background-color: #0e76bd;
+//             margin-left: -12px;
+//             text-align: left;
+//             padding-left: 20px;
+//           }
+//         }
+//         a:hover {
+//           text-decoration: none;
+//         }
+//       }
+//       .selected-opt {
+//         background-color: #e95853;
+//         a {
+//           span {
+//             background-color: #e95853;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
 #centroDeLiderazgo {
   .agendaQuincenal {
