@@ -37,8 +37,8 @@ angular
         templateUrl: 'views/culturaAmbiental.html'
         // controller: 'culturaAmbiental'
       })
-      .when('/centroDeLiderazgo', {
-        templateUrl: 'views/centroDeLiderazgo.html'
+      .when('/agendaQuincenal', {
+        templateUrl: 'views/agendaQuincenal.html'
         // controller: 'centroDeLiderazgo'
       })
       .otherwise({
