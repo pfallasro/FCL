@@ -39,7 +39,11 @@ angular
       })
       .when('/agendaQuincenal', {
         templateUrl: 'views/agendaQuincenal.html'
-        // controller: 'centroDeLiderazgo'
+        // controller: 'agendaQuincenal'
+      })
+      .when('/cursos', {
+        templateUrl: 'views/cursos.html'
+        // controller: 'cursos'
       })
       .otherwise({
         redirectTo: '/'
