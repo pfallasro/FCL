@@ -577,6 +577,85 @@ body {
       }
     } 
   }
+  .concursos {
+    h3 {
+      color: #0168b3;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+    .concursos-table {
+      margin-bottom: 20px;
+      display: inline-block;
+      .concursos-table-heading {
+        background-color: #0168b3;
+        color: #fff;
+        float: left;
+        width: 100%;
+        text-transform: uppercase;
+        padding-left: 20px;
+      }
+      .concursos-col {
+        width: 70%;
+        float: left;
+        height: 20px;
+        display: inline-table;
+        background-color: #cdced0;
+      }
+      .concursos-first-col {
+        div {
+          div {
+            width: 23%;
+            float: left;
+            padding: 10px;
+            min-height: 71px;
+            border-bottom: 1px dashed #fff;
+            border-right: 1px dashed #fff;
+            span {
+              color: #0168b3;
+              text-transform: uppercase;
+            }
+          }
+          .eliminatoria {
+            width: 31%;
+            padding: 50px 0 0 15px;
+            span {
+              color: #0168b3;
+            }
+          }
+        }
+        .concursos-second-row {
+          div {
+            border-bottom: 0;
+          }
+          .exposicion {
+            width: 31%;
+            padding: 50px 0 0 15px;
+            span {
+              color: #0168b3;
+            }
+          }
+        }
+      }
+      .reglamento {
+        width: 30%;
+        padding: 46px 0;
+        display: inline-table;
+        text-align: center;
+        background-color: #cdced0;
+        a {
+          background: #f7941f;
+          color: #fff;
+          padding: 7px;
+          border-radius: 3px;
+          text-transform: uppercase;
+        }
+        p {
+          color: #0168b3;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
 }
 
 
@@ -817,6 +896,33 @@ body {
         }
       }
     }
+    .concursos {
+      .concursos-table {
+        font-size: 13px;
+        .concursos-first-col {
+          div {
+            div {
+              padding: 10.7px;
+              width: 21%;
+            }
+            .eliminatoria {
+              width: 36%;
+              padding: 84px 0 0 4px;
+            }
+          }
+          .concursos-second-row {
+            .exposicion {
+              width: 36%;
+              padding: 33px 0 0 5px;
+            }
+          }
+        }
+        .reglamento {
+          width: 30.3%;
+          padding: 72px 0;
+        }
+      }
+    }
   }
 
   #centroLiderazgoMenu {
@@ -824,6 +930,8 @@ body {
       margin-top: 165%;
     }
   }
+
+  
 }
 
 /* iPhone 6 screen size */
@@ -868,6 +976,21 @@ body {
           padding: 11px;
         }
       } 
+    }
+    .concursos {
+      .concursos-table {
+        font-size: 11px;
+        .concursos-first-col {
+          div {
+            .eliminatoria {
+              padding: 76px 0 0 4px;
+            }
+          }
+        }
+        .reglamento {
+          padding: 64px 0;
+        }
+      }
     }
   }
 }
@@ -935,6 +1058,23 @@ body {
         li {
           font-size: 11px;
           width: 18.9%;
+        }
+      }
+    }
+    .concursos {
+      .concursos-table {
+        font-size: 10px;
+        .concursos-first-col {
+          width: 72%;
+          div {
+            .eliminatoria {
+              padding: 73px 0 0 4px;
+            }
+          }
+        }
+        .reglamento {
+          padding: 62px 0;
+          width: 28.3%;
         }
       }
     }
