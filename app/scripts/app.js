@@ -49,6 +49,10 @@ angular
         templateUrl: 'views/concursos.html'
         // controller: 'concursos'
       })
+      .when('/eneltiempo', {
+        templateUrl: 'views/eneltiempo.html'
+        // controller: 'eneltiempo'
+      })
       .otherwise({
         redirectTo: '/'
       });
