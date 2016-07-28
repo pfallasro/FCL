@@ -434,6 +434,23 @@ body {
   }
 }
 
+/* en el tiempo */
+
+.en-el-tiempo {
+  width: 118.8%;
+  margin-left: -110px;
+  background-image: url("../images/en-el-tiempo-banner.jpg");
+  background-repeat: repeat-x;
+  min-height: 580px;
+  .en-el-tiempo-banner {
+    background: rgba(227, 24, 55, 0.42);
+    height: 284px;
+    margin-top: 21.8%;
+    width: 100%;
+    float: left;
+  }
+}
+
 /* timeline */
 
 .timeline {
@@ -585,8 +602,6 @@ body {
   left: 50%;
   margin-left: -1.5px;
 }
-
-/**/
 
 @media (max-width: 767px) {
 
