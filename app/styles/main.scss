@@ -472,6 +472,7 @@ body {
       position: relative;
       -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
       box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+      margin-top: 25px;
 
       .timeline-heading {
 
@@ -1058,11 +1059,24 @@ body {
     }
   }
 
+  /* en el tiempo */
+
+  .en-el-tiempo {
+    min-height: 359px;
+    background-size: 100%;
+
+    .en-el-tiempo-banner {
+      height: 180px;
+      margin-top: 20.8%;
+    }
+  }
+
 
   /* timeline */
 
   .timeline > li > .timeline-panel {
     width: 36%;
+    margin-top: 15px;
   }
 
   .timeline > li > .timeline-badge {
@@ -1160,6 +1174,19 @@ body {
     }
   }
 
+  /* en el tiempo */
+
+  .en-el-tiempo {
+    min-height: 183px;
+    width: 113.8%;
+    margin-left: -36px;
+    
+    .en-el-tiempo-banner {
+      height: 93px;
+      margin-top: 20.5%;
+    }
+  }
+
   /* timeline */
 
   ul.timeline > li > .timeline-badge img {
@@ -1241,6 +1268,18 @@ body {
       }
     }
   }
+
+  /* en el tiempo */
+
+  .en-el-tiempo {
+    width: 114.8%;
+    min-height: 165px;
+    
+    .en-el-tiempo-banner {
+      margin-top: 18.5%;
+    }
+  }
+
 }
 
 /* iPhone 5 screen size */
@@ -1325,6 +1364,18 @@ body {
           width: 28.3%;
         }
       }
+    }
+  }
+
+  /* en el tiempo */
+
+  .en-el-tiempo {
+    width: 117.7%;
+    min-height: 143px;
+    
+    .en-el-tiempo-banner {
+      height: 70px;
+      margin-top: 21.5%;
     }
   }
 }
