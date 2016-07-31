@@ -98,6 +98,14 @@ body {
   }
 }
 
+.nav {
+  li {
+    a {
+      padding: 10px 7px;
+    }
+  }
+}
+
 .main-info {
   position: relative;
   z-index: -1;
@@ -219,7 +227,8 @@ body {
   .navbar-default {
     padding: 10px 0;
     background-color: #006bb3;
-    border-color: #006bb3;
+    // border-color: #006bb3;
+    border: 0;
     color: #fff;
     font-size: 12px;
     border-radius: 0;
@@ -238,11 +247,16 @@ body {
             width: 93%;
           }
         }
+        .navbar-toggle {
+          margin-top: 15px;
+          margin-bottom: 0;
+          margin-right: 0;
+        }
       }
       .translate-container {
         float: left;
         width: 20%;
-        margin: 18px 50px;
+        margin: 18px 12px;
         form {
           div {
             float: left;
@@ -265,6 +279,7 @@ body {
     .navbar-nav {
       margin-top: 16px;
       li {
+        // padding: 0 10px;
         border-right: 1px solid #fff;
         a {
           font-weight: 300;
@@ -437,25 +452,43 @@ body {
 /* en el tiempo */
 
 .en-el-tiempo {
-  width: 118.8%;
-  margin-left: -110px;
+  width: 127.2%;
+  margin-left: -160px;
   background-image: url("../images/en-el-tiempo-banner.jpg");
   background-repeat: repeat-x;
+  background-size: 100%;
   min-height: 580px;
   .en-el-tiempo-banner {
     background: rgba(227, 24, 55, 0.42);
     height: 284px;
-    margin-top: 21.8%;
+    // margin-top: 20%;
+    margin-top: 20.4%;
     width: 100%;
     float: left;
+    padding: 20px 0;
+    color: #fff;
+    div {
+      width: 50%;
+      float: left;
+      img {
+        float: right;
+        padding: 40px;
+      }
+    }
+    .en-el-tiempo-desc {
+      border-left: 1px solid #fff;
+      padding: 20px;
+    }
   }
 }
 
 /* timeline */
-
+#timeline-container {
+  margin: 25px 0;
+}
 .timeline {
   list-style: none;
-  padding: 20px 0 20px;
+  padding: 40px 0 20px;
   position: relative;
 
   li {
@@ -961,7 +994,6 @@ body {
           }
           .nav-logo {
             position: absolute;
-            width: 101%;
             img {
               width: 166px;
             }
@@ -969,10 +1001,16 @@ body {
         }
         .navbar-collapse {
           background-color: #e95853;
-          width: 109%;
+          // width: 107.7%;
           margin-top: 10px;
           overflow: hidden;
           padding-left: 10px;
+          ul {
+            li {
+              width: 100%;
+              display: inline-block;
+            }
+          }
         }
         .translate-container {
           width: 100%;
@@ -1002,6 +1040,17 @@ body {
 
 /* iPad screen size */
 @media screen and (max-width: 768px) {
+
+  #main-nav {
+    .navbar-default {
+      .navbar-nav {
+        li {
+          padding: 0;
+        }
+      }
+    }
+  }
+
   /*Proyectos Sociales*/
   .proyectos-title {
     padding-top: 20px;
@@ -1064,10 +1113,11 @@ body {
   .en-el-tiempo {
     min-height: 359px;
     background-size: 100%;
+    width: 125.5%;
 
     .en-el-tiempo-banner {
       height: 180px;
-      margin-top: 20.8%;
+      margin-top: 20%;
     }
   }
 
@@ -1098,6 +1148,17 @@ body {
 
 /* iPhone 6 Plus screen size */
 @media screen and (max-width: 414px) {
+
+  #main-nav {
+    .navbar-default {
+      .navbar-nav {
+        li {
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+
   /*Proyectos Sociales*/
   .proyect-info-container {
     div {
@@ -1178,7 +1239,7 @@ body {
 
   .en-el-tiempo {
     min-height: 183px;
-    width: 113.8%;
+    width: 113%;
     margin-left: -36px;
     
     .en-el-tiempo-banner {
@@ -1203,6 +1264,7 @@ body {
   }
 
   ul.timeline > li > .timeline-panel {
+    margin-top: 0;
     width: calc(100% - 90px);
     width: -webkit-calc(100% - 90px);
   }
