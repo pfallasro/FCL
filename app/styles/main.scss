@@ -1163,16 +1163,51 @@ body {
   /* en el tiempo */
 
   .en-el-tiempo {
-    min-height: 359px;
-    background-size: 100%;
+    min-height: 396px;
     width: 125.5%;
-
     .en-el-tiempo-banner {
-      height: 180px;
-      margin-top: 20%;
+      padding-top: 7%;
+      margin-top: 0;
+      height: 391px;
+      .tiempo-historia {
+        margin-left: -25px;
+        .en-el-tiempo-desc {
+          width: 50%;
+          h1 {
+            font-size: 28px;
+          }
+        }
+        img {
+          padding: 40px 20px;
+        }
+      }
+      .nuestro-fundador {
+        width: 36%;
+        margin-top: 5%;
+        p.fundador-date {
+          text-align: right;
+        }
+        ul {
+          height: 30px;
+          padding: 12px 0;
+          margin-top: 0;
+          width: 100%;
+          display: inline-block;
+          li {
+            div {
+              margin-right: 4%;
+              margin-left: 5%;
+              width: 70px;
+              height: 70px;
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
     }
-  }
-
+  } 
 
   /* timeline */
 
