@@ -50,7 +50,7 @@ angular
         // controller: 'concursos'
       })
       .when('/eneltiempo', {
-        templateUrl: 'views/eneltiempo.html'
+        templateUrl: 'views/enElTiempo.html'
         // controller: 'eneltiempo'
       })
       .otherwise({
