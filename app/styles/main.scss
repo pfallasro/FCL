@@ -437,8 +437,8 @@ body {
 /* en el tiempo */
 
 .en-el-tiempo {
-  width: 127.2%;
-  margin-left: -160px;
+  width: 100%;
+  // margin-left: -160px;
   background-image: url("../images/en-el-tiempo-banner.jpg");
   background-repeat: repeat-x;
   background-size: 100%;
@@ -465,8 +465,14 @@ body {
       }
     }
     .tiempo-historia {
-      width: 65%;
-      margin-left: -218px;
+      width: 50%;
+      // margin-left: -218px;
+      div {
+        width: 65%;
+      }
+      div:first-child {
+        width: 35%;
+      }
     }
     .nuestro-fundador {
       p {
@@ -483,8 +489,8 @@ body {
         border-left: 1px solid #fff;
         li {
           div {
-            width: 150px;
-            height: 150px;
+            width: 149px;
+            height: 149px;
             background-color: #00a79d;
             border-radius: 50%;
             margin-right: 2%;
@@ -521,12 +527,14 @@ body {
       .timeline-heading {
         .timeline-title {
           margin-top: 0;
-          color: inherit;
+          font-weight: 600;
+          color: #0168b3;
         }
       }
       .timeline-body {
         p, ul {
           margin-bottom: 0;
+          color: #6e6f73;
         }
         p + p {
           margin-top: 5px;
@@ -566,7 +574,7 @@ body {
 
       left: 47%;
       margin-left: -25px;
-      background-color: #999999;
+      background-color: #00a79d;
       z-index: 100;
       border-top-right-radius: 50%;
       border-top-left-radius: 50%;
@@ -580,16 +588,16 @@ body {
       background-color: #2e6da4 !important;
     }
     .timeline-badge.success {
-      background-color: #3f903f !important;
+      background-color: #1b75bb !important;
     }
     .timeline-badge.warning {
-      background-color: #f0ad4e !important;
+      background-color: #f7931d !important;
     }
     .timeline-badge.danger {
-      background-color: #d9534f !important;
+      background-color: #ef4036 !important;
     }
     .timeline-badge.info {
-      background-color: #5bc0de !important;
+      background-color: #8cc63e !important;
     }
   }
   li.timeline-inverted {
@@ -1109,11 +1117,11 @@ body {
 /* en el tiempo */
 
 .en-el-tiempo {
-  width: 125.5%;
-      min-height: 390px;
+  // width: 125.5%;
+      min-height: 333px;
   .en-el-tiempo-banner {
-   padding: 40px 0;
-    height: 391px;
+       padding: 10px 0;
+    height: 332px;
     margin-top: 0;
 
 
@@ -1129,14 +1137,14 @@ body {
       }
     }
     .tiempo-historia {
-         margin-left: 60px;
-             width: 54%;
+         // margin-left: 60px;
+             // width: 54%;
     }
     .nuestro-fundador {
-        width: 36%;
+        // width: 36%;
             margin-top: 5%;
-      p {
-       
+      p.fundador-date {
+           text-align: right;
       }
       ul {
           width: 100%;
@@ -1149,6 +1157,8 @@ body {
           div {
              width: 70px;
     height: 70px;
+        margin-right: 4%;
+    margin-left: 4%;
 
            
             img {
@@ -1173,6 +1183,58 @@ body {
 
 
 
+
+}
+
+/* iPad in landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+
+  #main-nav {
+    .navbar-default {
+      .container .translate-container {
+        margin: 18px 0;
+      }
+    }
+  }
+
+  .timeline {
+    li {
+      .timeline-panel {
+        width: 40%;
+      }
+      .timeline-badge {
+        margin-left: -32px;
+      }
+    }
+  }
+
+  .en-el-tiempo {
+    min-height: 444px;
+    .en-el-tiempo-banner {
+      margin-top: 14.4%;
+      height: 297px;
+      .nuestro-fundador {
+        margin-top: 4%;
+        ul {
+          padding: 12px 0;
+          li {
+            div {
+              width: 100px;
+              height: 100px;
+              margin-right: 4%;
+              margin-left: 3%;
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 
 }
 

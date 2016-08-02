@@ -53,6 +53,10 @@ angular
         templateUrl: 'views/enElTiempo.html'
         // controller: 'eneltiempo'
       })
+      .when('/eneltiempobanner', {
+        templateUrl: 'views/eneltiempo-banner.html'
+        // controller: 'eneltiempobanner'
+      })
       .otherwise({
         redirectTo: '/'
       });
