@@ -1048,30 +1048,6 @@ body {
     margin-left: 12% !important;
     width: 90% !important;
   }
-  /* Cultura Ambiental */
-  #culturaAmbiental {
-    .proyectos-text {
-      .proyect-info-container {
-        div {
-          margin: 0 35%;
-          span {
-            width: 29% !important;
-          }
-          .lower-bar {
-            width: 100% !important;
-            margin: 0;
-          }
-        }
-      }
-    }
-    .col-md-8 {
-      .row {
-        .galeria-container {
-          margin: 0 15px;
-        }
-      }
-    }
-  }
    /* Centro De Liderazgo */
   #centroDeLiderazgo {
     .proyectos-title {
@@ -1254,26 +1230,6 @@ and (orientation : landscape) {
       }
     }
   }
-  /* Cultura Ambiental */
-  #culturaAmbiental {
-    .proyectos-text {
-      .proyectos-title {
-        padding-top: 0;
-        padding-left: 69px !important;
-        margin-left: 6% !important;
-      }
-      .proyect-info-container {
-        div {
-          margin: 0 26%;
-          span {
-            width: 42% !important;
-          }
-          .lower-bar {
-          }
-        }
-      }
-    }
-  }
    /* Centro De Liderazgo */
   #centroDeLiderazgo {
     .proyectos-title {
@@ -1427,15 +1383,6 @@ and (orientation : landscape) {
       }
     }
   }
-  /* Cultura Ambiental */
-  #culturaAmbiental {
-    .proyectos-text {
-      .proyectos-title {
-        padding-left: 66px !important;
-        margin-left: 8% !important;
-      }
-    }
-  }
    /* Centro De Liderazgo */
   #centroDeLiderazgo {
     .proyectos-title {
@@ -1506,24 +1453,6 @@ and (orientation : landscape) {
       ul {
         float: right;
         padding-left: 0;
-      }
-    }
-  }
-
-  /* Cultura Ambiental */
-  #culturaAmbiental {
-    .proyectos-text {
-      .proyectos-title {
-        padding-left: 52px !important;
-        margin-left: 3% !important;
-      }
-      .proyect-info-container {
-        div {
-          margin: 0 4%;
-          span {
-            width: 92% !important;
-          }
-        }
       }
     }
   }
@@ -1636,33 +1565,6 @@ and (orientation : landscape) {
         }
       }
     }
-  }
-}
-
-/*Cultura Ambiental Desktop*/
-#culturaAmbiental {
-  .proyectos-text {
-    .proyectos-title {
-      width: 96%;
-    } 
-  }
-  .col-md-8 {
-    .row {
-      .galeria-container {
-        margin-left: 14px;
-      }
-    }
-  }
-  h3 {
-    font-size: 30px;
-    color: #0168b3;
-    text-transform: uppercase;
-  }
-  p {
-    color: #6e6f73;
-  }
-  .cultura-amb-blue {
-    color: #0168b3;
   }
 }
 

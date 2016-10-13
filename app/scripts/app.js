@@ -33,10 +33,6 @@ angular
         templateUrl: 'views/proyectosSociales.html'
         // controller: 'proyectos'
       })
-      .when('/culturaAmbiental', {
-        templateUrl: 'views/culturaAmbiental.html'
-        // controller: 'culturaAmbiental'
-      })
       .when('/agendaQuincenal', {
         templateUrl: 'views/agendaQuincenal.html'
         // controller: 'agendaQuincenal'
