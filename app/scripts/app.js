@@ -37,10 +37,6 @@ angular
         templateUrl: 'views/agendaQuincenal.html'
         // controller: 'agendaQuincenal'
       })
-      .when('/concursos', {
-        templateUrl: 'views/concursos.html'
-        // controller: 'concursos'
-      })
       .when('/eneltiempo', {
         templateUrl: 'views/enElTiempo.html'
         // controller: 'eneltiempo'
