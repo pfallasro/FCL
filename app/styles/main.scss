@@ -292,6 +292,11 @@ body {
 }
 
 /*Lower nav*/
+
+.desktop-nav {
+  margin: 44px 0 24px 0;
+}
+
 #nav {
   padding-left: 0;
   padding-right: 28px;
@@ -1340,7 +1345,7 @@ and (orientation : landscape) {
 
 /*Proyectos Sociales*/
 .proyectos-container {
-  padding: 45px 0;
+  // padding: 45px 0;
   .proyectos-text {
     .proyect-info-container {
       div {

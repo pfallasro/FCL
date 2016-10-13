@@ -24,11 +24,11 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
-      })
+      // .when('/about', {
+      //   templateUrl: 'views/about.html',
+      //   controller: 'AboutCtrl',
+      //   controllerAs: 'about'
+      // })
       .when('/proyectos', {
         templateUrl: 'views/proyectosSociales.html'
         // controller: 'proyectos'
@@ -41,10 +41,10 @@ angular
         templateUrl: 'views/enElTiempo.html'
         // controller: 'eneltiempo'
       })
-      .when('/eneltiempobanner', {
-        templateUrl: 'views/eneltiempo-banner.html'
-        // controller: 'eneltiempobanner'
-      })
+      // .when('/eneltiempobanner', {
+      //   templateUrl: 'views/eneltiempo-banner.html'
+      //   // controller: 'eneltiempobanner'
+      // })
       .otherwise({
         redirectTo: '/'
       });
