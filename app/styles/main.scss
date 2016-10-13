@@ -767,61 +767,6 @@ body {
       }
     }
   }
-  .cursos {
-    h3 {
-      color: #0168b3;
-      font-size: 30px;
-      text-transform: uppercase;
-    }
-    .cursos-table {
-      margin-bottom: 20px;
-      .cursos-table-heading {
-        width: 50%;
-        float: left;
-        background-color: #9fa0a4;
-        text-align: center;
-        color: #fff;
-      }
-      .curso-gratuito {
-        background-color: #0e76bd;
-        text-transform: uppercase;
-      }
-      .cursos-content {
-        background-color: #cdced0;
-        display: inline-block;
-        padding: 10px 0;
-        .curso-detail {
-          div {
-            border-right: 1px dashed #fff;
-            padding: 0 4%;
-            width: 33%;
-            float: left;
-            .curso-detail-title {
-              color: #f1592a;
-              text-transform: uppercase;
-            }
-            .lugar {
-              color: #0e76bd;
-            }
-            .inicio-lecciones {
-              color: #f7941d;
-            }
-          }
-          div:last-child {
-            border-right: 0;
-          }
-        }
-        .desc-curso {
-          padding: 1% 4%;
-          p {
-            span {
-              color: #0e76bd;
-            }
-          }
-        }
-      }
-    } 
-  }
   .concursos {
     h3 {
       color: #0168b3;
@@ -1396,13 +1341,6 @@ and (orientation : landscape) {
           width: 19.1%;
         }
       }
-    }
-    .cursos {
-      .cursos-table {
-        .cursos-table-heading {
-          padding: 11px;
-        }
-      } 
     }
     .concursos {
       .concursos-table {
