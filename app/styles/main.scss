@@ -1345,6 +1345,8 @@ and (orientation : landscape) {
 
 /*Proyectos Sociales*/
 .proyectos-container {
+  position: relative;
+  z-index: -1;
   // padding: 45px 0;
   .proyectos-text {
     .proyect-info-container {
