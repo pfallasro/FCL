@@ -231,18 +231,18 @@ body {
       }
       .translate-container {
         float: left;
-        width: 20%;
-        margin: 18px 50px;
+        width: 27%;
+        margin: 18px 0;
         form {
           div {
-            float: left;
+            float: right;
           }
           div:first-child {
-            width: 37%;
+            width: 26%;
           }
           label {
             font-weight: 300;
-            color: #fbaf3f;
+            color: #fff;
             text-transform: uppercase;
             margin-right: 15px;
           }
@@ -254,14 +254,12 @@ body {
       }
     }
     .navbar-nav {
-      margin-top: 16px;
+      margin-top: 10px;
       li {
-        border-right: 1px solid #fff;
         a {
           font-weight: 300;
           letter-spacing: 1px;
-          padding-top: 5px;
-          padding-bottom: 5px;
+          padding: 10px;
         }
       }
     }
@@ -276,7 +274,10 @@ body {
     color: #ffffff;
   }
   .navbar-default .navbar-nav > li > a {
-    color: #ffffff;
+    color: #fbaf3f;
+  }
+  .navbar-default .navbar-nav > li:nth-child(odd) > a {
+    color: #fff;
   }
 }
 
@@ -846,6 +847,7 @@ body {
   .header {
     padding: 0;
   }
+
   /*main nav*/
   #main-nav {
     .navbar-default {
