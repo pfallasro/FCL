@@ -13,6 +13,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
+  color: #6d6e70;
 }
 
 .carousel-indicators {
@@ -25,57 +26,44 @@ body {
   }
 }
 
-.video-heading {
+.main-info-heading {
   background-color: #0168b3;
   color: #fff;
   text-transform: uppercase;
   padding: 3% 0;
-  // padding: 10px 20px;
   text-align: center;
-  // font-size: 25px;
-  // font-weight: bold;
   p {
     margin: 0;
-    // margin: 0 0 23px;
-    span {
-      // font-weight: normal;
-      // font-size: 15px;
-      // float: left;
-      // margin: 0 22px;
-    }
-  }
-  p.welcome {
-    font-size: 25px;
-    font-weight: bold;
   }
 }
 
 .second-info-col {
-  .video-heading {
-    font-size: 13px;
-    p {
-      margin: 0;
-    }
-  }
   img {
     width: 100%;
   }
-  .big-title-info {
-    color: #0168b3;
-    font-size: 30px;
-    margin-top: 10px;
+  img:first-child {
+    margin-bottom: 20px;
   }
-  .info-descrip {
-    color: #6e6f73;
-  }
+}
+
+.third-info-col {  
   .carousel.slide {
     .carousel-inner {
       div {
         img {
-          height: 178px;
+          width: 100%;
+          height: 195px;
         }
       }
     }
+  }
+  .big-title-info {
+    color: #0168b3;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px 0;
   }
 }
 
@@ -99,12 +87,13 @@ body {
 }
 
 .main-info {
-  position: relative;
+  // position: relative;
   z-index: -1;
 }
 
 /* Custom page footer */
 .footer {
+  margin-top: 40px;
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
@@ -295,6 +284,8 @@ body {
 
 .desktop-nav {
   margin: 44px 0 24px 0;
+  position: relative;
+  z-index: 9999;
 }
 
 #nav {
