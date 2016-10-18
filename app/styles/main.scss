@@ -434,7 +434,6 @@ body {
 }
 
 /* en el tiempo */
-
 .en-el-tiempo {
   display: flex;
   width: 100%;
@@ -506,8 +505,102 @@ body {
   }
 }
 
-/* timeline */
+/* proyectos */
 
+.proyectos {
+  .proyectos-banner {
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .proyectos-desc {
+      color: #fff;
+      background-color: rgba(101, 44, 144, 0.78);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 40px;
+    }
+    .proyectos-desc div {
+      border-left: 1px solid #fff;
+      padding-left: 25px;
+    }
+    .proyectos-desc p:first-child {
+      font-size: 28px;
+    }
+  }
+  .proyectos-container {
+    .proyectos-list {
+      div {
+        height: 170px;
+        background-color: #7e3f98;
+        margin: 12px;
+        width: 170px;
+        float: left;
+        background-size: 147px 65px;
+        background-repeat: no-repeat;
+        background-position: 45% 50%; 
+      }
+      .pro-poder {
+        background-image: url('../images/poder.png');
+      }
+      .pro-kopa {
+        background-color: #9e1e62;
+        background-image: url('../images/kopa.png');
+      }
+      .pro-nsa {
+        background-color: #ef4036;
+        background-image: url('../images/nsa.png');
+      }
+      .pro-ept {
+        background-color: #f7931d;
+        background-image: url('../images/ept.png');
+      }
+      .pro-huellas {
+        background-color: #e9bb1e;
+        background-size: 140px 50px;
+        background-image: url('../images/huellas.png');
+      }
+      .pro-batsula {
+        background-color: #8cc63e;
+        background-size: 144px 60px;
+        background-position: 45% 43%;
+        background-image: url('../images/batsula.png');
+      }
+      .pro-redes {
+        background-color: #2ab573;
+        background-image: url('../images/redes.png');
+      }
+      .pro-lideres {
+        background-color: #00acc1;
+        background-size: 140px 56px;
+        background-image: url('../images/lideres.png');
+      }
+      .pro-hasa {
+        background-color: #27a9e1;
+        background-image: url('../images/hasa.png');
+      }
+      .pro-equidad {
+        background-color: #1b75bb;
+        background-size: 140px 53px;
+        background-image: url('../images/equidad.png');
+      }
+      .pro-edufi {
+        background-color: #38b449;
+        background-size: 131px 75px;
+        background-position: 45% 39%;
+        background-image: url('../images/edufi.png');
+      }
+      .pro-expa {
+        background-color: #f05a28;
+        background-size: 130px 64px;
+        background-image: url('../images/expa.png');
+      }
+    }
+  }
+}
+
+/* timeline */
 .timeline {
   list-style: none;
   padding: 20px 0 20px;
@@ -797,14 +890,14 @@ body {
     }
   }
   /*Proyectos Sociales*/
-  .proyect-info-container {
-    div {
-      width: 29% !important;
-      span {
-        width: 27.6% !important;
-      }
-    }
-  }
+  // .proyect-info-container {
+  //   div {
+  //     width: 29% !important;
+  //     span {
+  //       width: 27.6% !important;
+  //     }
+  //   }
+  // }
 }
 
 @media screen and (max-width: 991px) {
@@ -834,13 +927,13 @@ body {
     }
   }
   /* Proyectos Sociales */
-  .proyect-info-container {
-    div {
-      span {
-        width: 27.8% !important;
-      }
-    }
-  }
+  // .proyect-info-container {
+  //   div {
+  //     span {
+  //       width: 27.8% !important;
+  //     }
+  //   }
+  // }
 }
 
 @media screen and (max-width: 766px) {
@@ -889,50 +982,63 @@ body {
     }
   }
   /*Proyectos Sociales*/
-  .proyect-info-container {
-    div {
-      width: 42% !important;
-      span {
-        width: 40.3% !important;
-      }
-    }
-  }
+  // .proyect-info-container {
+  //   div {
+  //     width: 42% !important;
+  //     span {
+  //       width: 40.3% !important;
+  //     }
+  //   }
+  // }
 }
 
 /* iPad screen size */
 @media screen and (max-width: 768px) {
-  /*Proyectos Sociales*/
-  .proyectos-title {
-    padding-top: 20px;
-    padding-left: 118px !important;
-    height: 102px !important;
-    font-size: 37px !important;
-    margin-left: 12% !important;
-    width: 90% !important;
-  }
-   /* Centro De Liderazgo */
-  #centroDeLiderazgo {
-    .proyectos-title {
-      margin-left: 8% !important;
-    }
-    .agendaQuincenal {
-      h3 {
-        margin-left: 0;
-      }
-      ul {
-        padding: 0;
-        li {
-          width: 19.5%;
+  .proyectos {
+    .proyectos-container {
+      .proyectos-list {
+        width: 100%;
+          div {
+            width: 216px;
+          }
         }
-      }
+    }
+    .proyectos-banner {
+      width: 100%;
     }
   }
+  /*Proyectos Sociales*/
+  // .proyectos-title {
+  //   padding-top: 20px;
+  //   padding-left: 118px !important;
+  //   height: 102px !important;
+  //   font-size: 37px !important;
+  //   margin-left: 12% !important;
+  //   width: 90% !important;
+  // }
+   /* Centro De Liderazgo */
+  // #centroDeLiderazgo {
+  //   .proyectos-title {
+  //     margin-left: 8% !important;
+  //   }
+  //   .agendaQuincenal {
+  //     h3 {
+  //       margin-left: 0;
+  //     }
+  //     ul {
+  //       padding: 0;
+  //       li {
+  //         width: 19.5%;
+  //       }
+  //     }
+  //   }
+  // }
 
-  #centroLiderazgoMenu {
-    div {
-      margin-top: 150%;
-    }
-  }
+  // #centroLiderazgoMenu {
+  //   div {
+  //     margin-top: 150%;
+  //   }
+  // }
 
   .timeline {
     li {
@@ -1084,34 +1190,48 @@ and (orientation : landscape) {
 
 /* iPhone 6 Plus screen size */
 @media screen and (max-width: 414px) {
-  /*Proyectos Sociales*/
-  .proyect-info-container {
-    div {
-      span {
-        width: 39% !important;
-      }
+  .proyectos {
+    margin-top: 435px;
+    .proyectos-container {
+      .proyectos-list div {
+        width: 363px;
+      } 
     }
-  }
-   /* Centro De Liderazgo */
-  #centroDeLiderazgo {
-    .proyectos-title {
-      padding-top: 0;
-      padding-left: 68px !important;
-    }
-    .agendaQuincenal {
-      ul {
-        li {
-          width: 19.2%;
+    .proyectos-banner {
+        position: inherit;
+        img {
+          width: 0;
         }
       }
-    }
   }
+  /*Proyectos Sociales*/
+  // .proyect-info-container {
+  //   div {
+  //     span {
+  //       width: 39% !important;
+  //     }
+  //   }
+  // }
+   /* Centro De Liderazgo */
+  // #centroDeLiderazgo {
+  //   .proyectos-title {
+  //     padding-top: 0;
+  //     padding-left: 68px !important;
+  //   }
+  //   .agendaQuincenal {
+  //     ul {
+  //       li {
+  //         width: 19.2%;
+  //       }
+  //     }
+  //   }
+  // }
 
-  #centroLiderazgoMenu {
-    div {
-      margin-top: 165%;
-    }
-  }
+  // #centroLiderazgoMenu {
+  //   div {
+  //     margin-top: 165%;
+  //   }
+  // }
 
 /* en el tiempo */
 
@@ -1201,31 +1321,31 @@ and (orientation : landscape) {
     width: 108.7%;
   }
   /*Proyectos Sociales*/
-  .proyect-info-container {
-    div {
-      span {
-        width: 38.7% !important;
-      }
-      span.two-line-title {
-        padding: 10px !important;
-      }
-    }
-  }
+  // .proyect-info-container {
+  //   div {
+  //     span {
+  //       width: 38.7% !important;
+  //     }
+  //     span.two-line-title {
+  //       padding: 10px !important;
+  //     }
+  //   }
+  // }
    /* Centro De Liderazgo */
-  #centroDeLiderazgo {
-    .proyectos-title {
-      padding-left: 60px !important;
-      margin-left: 4% !important;
-    }
-    .agendaQuincenal {
-      ul {
-        li {
-          font-size: 12px;
-          width: 19.1%;
-        }
-      }
-    }
-  }
+  // #centroDeLiderazgo {
+  //   .proyectos-title {
+  //     padding-left: 60px !important;
+  //     margin-left: 4% !important;
+  //   }
+  //   .agendaQuincenal {
+  //     ul {
+  //       li {
+  //         font-size: 12px;
+  //         width: 19.1%;
+  //       }
+  //     }
+  //   }
+  // }
 }
 
 /* iPhone 5 screen size */
@@ -1234,18 +1354,18 @@ and (orientation : landscape) {
     width: 110.2%;
   }
   /*Proyectos Sociales*/
-  .proyect-info-container {
-    div {
-      width: 92% !important;
-      span {
-        width: 83.3% !important;
-        padding: 10px !important;
-      }
-      span.two-line-title {
-        padding: 0 !important;
-      }
-    }
-  }
+  // .proyect-info-container {
+  //   div {
+  //     width: 92% !important;
+  //     span {
+  //       width: 83.3% !important;
+  //       padding: 10px !important;
+  //     }
+  //     span.two-line-title {
+  //       padding: 0 !important;
+  //     }
+  //   }
+  // }
   .mobile-nav {
     button {
       width: 19% !important;
@@ -1263,23 +1383,23 @@ and (orientation : landscape) {
     }
   }
    /* Centro De Liderazgo */
-  #centroDeLiderazgo {
-    .proyectos-title {
-      margin-left: 0 !important;
-      font-size: 31px !important;
-    }
-    .agendaQuincenal {
-      h3 {
-        font-size: 27px;
-      }
-      ul {
-        li {
-          font-size: 11px;
-          width: 18.9%;
-        }
-      }
-    }
-  }
+  // #centroDeLiderazgo {
+  //   .proyectos-title {
+  //     margin-left: 0 !important;
+  //     font-size: 31px !important;
+  //   }
+  //   .agendaQuincenal {
+  //     h3 {
+  //       font-size: 27px;
+  //     }
+  //     ul {
+  //       li {
+  //         font-size: 11px;
+  //         width: 18.9%;
+  //       }
+  //     }
+  //   }
+  // }
 }
 
 .mobile-nav {
@@ -1341,102 +1461,102 @@ and (orientation : landscape) {
   position: relative;
   z-index: -1;
   // padding: 45px 0;
-  .proyectos-text {
-    .proyect-info-container {
-      div {
-        width: 44%;
-        span {
-          width: 44%;
-        }
-        .lower-bar {
-          background-color: #8ec63f;
-          width: 100%;
-          height: 27px;
-          margin: 0;
-        }
-      }
-    }
-  }
+  // .proyectos-text {
+  //   .proyect-info-container {
+  //     div {
+  //       width: 44%;
+  //       span {
+  //         width: 44%;
+  //       }
+  //       .lower-bar {
+  //         background-color: #8ec63f;
+  //         width: 100%;
+  //         height: 27px;
+  //         margin: 0;
+  //       }
+  //     }
+  //   }
+  // }
 }
 
-.proyectos-title {
-  background-image: url("../images/proyectos_logo.png");
-  background-repeat: no-repeat;
-  background-size: 16%;
-  padding-left: 66px;
-  height: 66px;
-  color: #0168b3;
-  font-weight: 600;
-  text-transform: uppercase;
-  display: inline-block;
-  margin: 20px 0;
-  font-size: 24px;
-  letter-spacing: 3px;
-  span {
-    font-size: 36px;
-    letter-spacing: 0;
-  }
-}
+// .proyectos-title {
+//   background-image: url("../images/proyectos_logo.png");
+//   background-repeat: no-repeat;
+//   background-size: 16%;
+//   padding-left: 66px;
+//   height: 66px;
+//   color: #0168b3;
+//   font-weight: 600;
+//   text-transform: uppercase;
+//   display: inline-block;
+//   margin: 20px 0;
+//   font-size: 24px;
+//   letter-spacing: 3px;
+//   span {
+//     font-size: 36px;
+//     letter-spacing: 0;
+//   }
+// }
 
-.proyectos-text {
-  p {
-    color: #6e6f73;
-  }
-}
+// .proyectos-text {
+//   p {
+//     color: #6e6f73;
+//   }
+// }
 
-.proyect-info-container {
-  div {
-    width: 21%;
-    float: left;
-    margin: 20px 13px;
-    span {
-      padding: 10px;
-      width: 20.2%;
-      text-align: center;
-      background-color: rgba(218, 214, 214, 0.85);
-      color: #6d6e72;
-      z-index: 1;
-      position: absolute;
-      font-weight: 600;
-      font-size: 15px;
-    }
-    span.two-line-title {
-      padding: 0;
-    }
-    img {
-      width: 100%;
-      min-height: 160px;
-    }
-    a {
-      background-color: #0168b3;
-      padding: 5px;
-      width: 100%;
-      display: inline-block;
-      color: #fff;
-      text-transform: uppercase;
-      text-align: center;
-      font-size: 12px;
-    }
-  }
-  div:nth-child(2),
-  div:nth-child(7),
-  div:nth-child(10) {
-    a {
-      background-color: #8ec63f; // green
-    }
-  }
-  div:nth-child(3),
-  div:nth-child(6),
-  div:nth-child(11) {
-    a {
-      background-color: #f1592a; // orange
-    }
-  }
-  div:nth-child(4),
-  div:nth-child(5),
-  div:nth-child(12) {
-    a {
-      background-color: #f7941d; // yellow
-    }
-  }  
-} 
+// .proyect-info-container {
+//   div {
+//     width: 21%;
+//     float: left;
+//     margin: 20px 13px;
+//     span {
+//       padding: 10px;
+//       width: 20.2%;
+//       text-align: center;
+//       background-color: rgba(218, 214, 214, 0.85);
+//       color: #6d6e72;
+//       z-index: 1;
+//       position: absolute;
+//       font-weight: 600;
+//       font-size: 15px;
+//     }
+//     span.two-line-title {
+//       padding: 0;
+//     }
+//     img {
+//       width: 100%;
+//       min-height: 160px;
+//     }
+//     a {
+//       background-color: #0168b3;
+//       padding: 5px;
+//       width: 100%;
+//       display: inline-block;
+//       color: #fff;
+//       text-transform: uppercase;
+//       text-align: center;
+//       font-size: 12px;
+//     }
+//   }
+//   div:nth-child(2),
+//   div:nth-child(7),
+//   div:nth-child(10) {
+//     a {
+//       background-color: #8ec63f; // green
+//     }
+//   }
+//   div:nth-child(3),
+//   div:nth-child(6),
+//   div:nth-child(11) {
+//     a {
+//       background-color: #f1592a; // orange
+//     }
+//   }
+//   div:nth-child(4),
+//   div:nth-child(5),
+//   div:nth-child(12) {
+//     a {
+//       background-color: #f7941d; // yellow
+//     }
+//   }  
+// } 
