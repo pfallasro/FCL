@@ -291,7 +291,7 @@ body {
 .desktop-nav {
   margin: 44px 0 24px 0;
   position: relative;
-  z-index: 9999;
+  z-index: 10;
 }
 
 #nav {
@@ -545,6 +545,7 @@ body {
         background-size: 147px 65px;
         background-repeat: no-repeat;
         background-position: 45% 50%; 
+        cursor: pointer;
       }
       .pro-poder {
         background-image: url('../images/poder.png');
@@ -600,6 +601,189 @@ body {
         background-color: #f05a28;
         background-size: 130px 64px;
         background-image: url('../images/expa.png');
+      }
+    }
+  }
+}
+
+.modal-dialog {
+    margin: 120px auto;
+    .modal-header {
+      color: #fff;
+      text-align: center;
+      .close {
+        color: #fff;
+        opacity: 1;
+      }
+    }
+    .modal-body {
+      img {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+      }
+      .modal-text {
+        padding: 20px 20px 0;
+      }
+    }
+    .modal-footer {
+      button {
+        color: #fff;
+      }
+    }
+}
+
+#poderModal {
+  .modal-dialog {
+    .modal-header {
+      background: #7e3f98;
+    }
+    .modal-footer {
+      button {
+        background: #7e3f98;
+      }
+    }
+  }
+}
+
+#kopaModal {
+  .modal-dialog {
+    .modal-header {
+      background: #9e1e62;
+    }
+    .modal-footer {
+      button {
+        background: #9e1e62;
+      }
+    }
+  }
+}
+
+#ninezModal {
+  .modal-dialog {
+    .modal-header {
+      background: #ef4036;
+    }
+    .modal-footer {
+      button {
+        background: #ef4036;
+      }
+    }
+  }
+}
+
+#eptModal {
+  .modal-dialog {
+    .modal-header {
+      background: #f7931d;
+    }
+    .modal-footer {
+      button {
+        background: #f7931d;
+      }
+    }
+  }
+}
+
+#huellasModal {
+  .modal-dialog {
+    .modal-header {
+      background: #e9bb1e;
+    }
+    .modal-footer {
+      button {
+        background: #e9bb1e;
+      }
+    }
+  }
+}
+
+#batsulaModal {
+  .modal-dialog {
+    .modal-header {
+      background: #8cc63e;
+    }
+    .modal-footer {
+      button {
+        background: #8cc63e;
+      }
+    }
+  }
+}
+
+#redesModal {
+  .modal-dialog {
+    .modal-header {
+      background: #2ab573;
+    }
+    .modal-footer {
+      button {
+        background: #2ab573;
+      }
+    }
+  }
+}
+
+#lideresModal {
+  .modal-dialog {
+    .modal-header {
+      background: #00acc1;
+    }
+    .modal-footer {
+      button {
+        background: #00acc1;
+      }
+    }
+  }
+}
+
+#hasaModal {
+  .modal-dialog {
+    .modal-header {
+      background: #27a9e1;
+    }
+    .modal-footer {
+      button {
+        background: #27a9e1;
+      }
+    }
+  }
+}
+
+#equidadModal {
+  .modal-dialog {
+    .modal-header {
+      background: #1b75bb;
+    }
+    .modal-footer {
+      button {
+        background: #1b75bb;
+      }
+    }
+  }
+}
+
+#edufiModal {
+  .modal-dialog {
+    .modal-header {
+      background: #38b449;
+    }
+    .modal-footer {
+      button {
+        background: #38b449;
+      }
+    }
+  }
+}
+
+#expaModal {
+  .modal-dialog {
+    .modal-header {
+      background: #f05a28;
+    }
+    .modal-footer {
+      button {
+        background: #f05a28;
       }
     }
   }
@@ -1138,6 +1322,10 @@ and (orientation : landscape) {
 
 /* iPhone 6 Plus screen size */
 @media screen and (max-width: 414px) {
+  .modal-dialog {
+    width: 93%;
+    margin: 20px auto;
+  }
   .proyectos {
     .proyectos-container {
       .proyectos-list div {
@@ -1228,6 +1416,31 @@ and (orientation : landscape) {
   }
 }
 
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) {
+  .modal-dialog {
+    width: 93%;
+    margin: 20px auto;
+    .modal-header {
+      padding: 5px;
+    }
+    .modal-body {
+      padding: 10px;
+      img {
+        width: 26%;
+      }
+      .modal-text {
+        padding: 5px 5px 0;
+      }
+    }
+    .modal-footer {
+      padding: 5px;
+    }
+  }
+}
+
 /* iPhone 6 screen size */
 @media screen and (max-width: 375px) {
   #main-nav .navbar-default .container .navbar-collapse {
@@ -1313,7 +1526,7 @@ and (orientation : landscape) {
 /*Proyectos Sociales*/
 .proyectos-container {
   position: relative;
-  z-index: -1;
+  // z-index: -1;
 }
 
 // .proyectos-title {
