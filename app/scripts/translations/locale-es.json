@@ -1,0 +1,30 @@
+{
+  "HELLO": "Hola",
+  "BUTTON_LANG_ES": "Español",
+  "BUTTON_LANG_EN": "English",
+
+  "MAIN_WHO_ARE_WE":"QUIÉNES SOMOS",
+  "MAIN_IN_TIME":"EN EL TIEMPO",
+  "MAIN_YOUTH_LIDERSHIP_PROGRAM":"PROGRAMA DE LIDERAZGO JUVENIL",
+  "MAIN_CONTACT_US":"CONTÁCTANOS",
+
+  "SECONDARY_SOCIAL_PROJECTS":"Proyectos Sociales",
+  "SECONDARY_LIDERSHIP_CENTER":"Centro de Liderazgo",
+  "SECONDARY_FREE_COURSES":"Cursos Gratuitos",
+  "SECONDARY_CONTESTS":"Concursos",
+  "SECONDARY_ACTIVITY_SCHEDULE":"Agenda de Actividades",
+  "SECONDARY_POSITIVE_LEADERS":"Líderes  Positivos",
+  "SECONDARY_PRESS":"Prensa",
+  "SECONDARY_LATEST_NEWS":"Últimas noticias",
+  "SECONDARY_TESTIMONIES":"Testimonios",
+  "SECONDARY_REPORTS":"Informes",
+  "SECONDARY_GIVE_US_A_HAND":"Danos Una Mano",
+  "SECONDARY_CONTRIBUTIONS":"Contribuciones",
+  "SECONDARY_VOLUNTEERING":"Voluntariado",
+  "SECONDARY_SERVICES":"Services",
+  "SECONDARY_REAL_STATE":"Bienes raíces",
+  "SECONDARY_POSITIVE_LEADERSHIP_WORKSHOPS":"Talleres de Liderazgo Poisitivo",
+  "SECONDARY_COMMUNITY_PRESENCE":"Presencia Comunitaria",
+  "SECONDARY_COUNSELING":"Asesorías",
+  "SECONDARY_TRAINING_AND_PROJECT_MANAGEMENT":"Entrenamiento y Gestión de Proyectos Sociales"
+}

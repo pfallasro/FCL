@@ -15,8 +15,28 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'pascalprecht.translate'
   ])
+
+  .run(function($rootScope) {
+    $rootScope.lang = 'es';
+  })
+
+  .config(function($translateProvider) {
+
+    var fileNameConvention = {
+      prefix: '/scripts/translations/locale-',
+      suffix: '.json'
+    };
+
+    $translateProvider
+      .useStaticFilesLoader(fileNameConvention)
+      .preferredLanguage('es')
+      .useMissingTranslationHandlerLog();
+
+  })
+
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
@@ -24,11 +44,10 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      // .when('/about', {
-      //   templateUrl: 'views/about.html',
-      //   controller: 'AboutCtrl',
-      //   controllerAs: 'about'
-      // })
+      .when('/contactanos', {
+        templateUrl: 'views/contactanos.html',
+        controller: 'ContactanosCtrl'
+      })
       .when('/proyectos', {
         templateUrl: 'views/proyectosSociales.html'
         // controller: 'proyectos'
@@ -41,10 +60,6 @@ angular
         templateUrl: 'views/enElTiempo.html'
         // controller: 'eneltiempo'
       })
-      // .when('/eneltiempobanner', {
-      //   templateUrl: 'views/eneltiempo-banner.html'
-      //   // controller: 'eneltiempobanner'
-      // })
       .otherwise({
         redirectTo: '/'
       });
