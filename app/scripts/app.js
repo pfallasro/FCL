@@ -60,6 +60,18 @@ angular
         templateUrl: 'views/enElTiempo.html'
         // controller: 'eneltiempo'
       })
+      .when('/quienessomos', {
+        templateUrl: 'views/quienesSomos.html'
+        // controller: 'quienessomos'
+      })
+      .when('/programa', {
+        templateUrl: 'views/programa.html'
+        // controller: 'programa'
+      })
+      // .when('/eneltiempobanner', {
+      //   templateUrl: 'views/eneltiempo-banner.html'
+      //   // controller: 'eneltiempobanner'
+      // })
       .otherwise({
         redirectTo: '/'
       });

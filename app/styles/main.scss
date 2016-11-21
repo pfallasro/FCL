@@ -14,6 +14,9 @@ body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
   color: #6d6e70;
+
+  width: 100%;
+  display: inline-table;
 }
 
 .carousel-indicators {
@@ -111,6 +114,8 @@ body {
   //   }
   // }
   .container {
+    width: 100%;
+    display: inline-block;
     ul {
       float: right;
       li {
@@ -286,7 +291,7 @@ body {
 .desktop-nav {
   margin: 44px 0 24px 0;
   position: relative;
-  z-index: 9999;
+  z-index: 10;
 }
 
 #nav {
@@ -529,17 +534,19 @@ body {
       font-size: 28px;
     }
   }
+
   .proyectos-container {
     .proyectos-list {
       div {
         height: 170px;
         background-color: #7e3f98;
         margin: 12px;
-        width: 170px;
+        width: 166px;
         float: left;
         background-size: 147px 65px;
         background-repeat: no-repeat;
         background-position: 45% 50%; 
+        cursor: pointer;
       }
       .pro-poder {
         background-image: url('../images/poder.png');
@@ -595,6 +602,219 @@ body {
         background-color: #f05a28;
         background-size: 130px 64px;
         background-image: url('../images/expa.png');
+      }
+    }
+  }
+}
+
+.liderazgo-container {
+  .proyectos-banner {
+    .proyectos-desc {
+      background-color: rgba(140, 198, 62, 0.63);
+      width: 100%;
+      .liderazgo-icon {
+        width: 16%;
+        float: left;
+        border-left: 0;
+        border-right: 1px solid #fff;
+        margin-right: 30px;
+        img {
+          width: 120px;
+        }
+      }
+      .programa-description {
+        border-left: 0;
+      }
+    }
+  }
+  .liderazgo-text {
+    div {
+      h3 {
+        color: #0067b1;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.modal-dialog {
+    margin: 120px auto;
+    .modal-header {
+      color: #fff;
+      text-align: center;
+      .close {
+        color: #fff;
+        opacity: 1;
+      }
+    }
+    .modal-body {
+      img {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+      }
+      .modal-text {
+        padding: 20px 20px 0;
+      }
+    }
+    .modal-footer {
+      button {
+        color: #fff;
+      }
+    }
+}
+
+#poderModal {
+  .modal-dialog {
+    .modal-header {
+      background: #7e3f98;
+    }
+    .modal-footer {
+      button {
+        background: #7e3f98;
+      }
+    }
+  }
+}
+
+#kopaModal {
+  .modal-dialog {
+    .modal-header {
+      background: #9e1e62;
+    }
+    .modal-footer {
+      button {
+        background: #9e1e62;
+      }
+    }
+  }
+}
+
+#ninezModal {
+  .modal-dialog {
+    .modal-header {
+      background: #ef4036;
+    }
+    .modal-footer {
+      button {
+        background: #ef4036;
+      }
+    }
+  }
+}
+
+#eptModal {
+  .modal-dialog {
+    .modal-header {
+      background: #f7931d;
+    }
+    .modal-footer {
+      button {
+        background: #f7931d;
+      }
+    }
+  }
+}
+
+#huellasModal {
+  .modal-dialog {
+    .modal-header {
+      background: #e9bb1e;
+    }
+    .modal-footer {
+      button {
+        background: #e9bb1e;
+      }
+    }
+  }
+}
+
+#batsulaModal {
+  .modal-dialog {
+    .modal-header {
+      background: #8cc63e;
+    }
+    .modal-footer {
+      button {
+        background: #8cc63e;
+      }
+    }
+  }
+}
+
+#redesModal {
+  .modal-dialog {
+    .modal-header {
+      background: #2ab573;
+    }
+    .modal-footer {
+      button {
+        background: #2ab573;
+      }
+    }
+  }
+}
+
+#lideresModal {
+  .modal-dialog {
+    .modal-header {
+      background: #00acc1;
+    }
+    .modal-footer {
+      button {
+        background: #00acc1;
+      }
+    }
+  }
+}
+
+#hasaModal {
+  .modal-dialog {
+    .modal-header {
+      background: #27a9e1;
+    }
+    .modal-footer {
+      button {
+        background: #27a9e1;
+      }
+    }
+  }
+}
+
+#equidadModal {
+  .modal-dialog {
+    .modal-header {
+      background: #1b75bb;
+    }
+    .modal-footer {
+      button {
+        background: #1b75bb;
+      }
+    }
+  }
+}
+
+#edufiModal {
+  .modal-dialog {
+    .modal-header {
+      background: #38b449;
+    }
+    .modal-footer {
+      button {
+        background: #38b449;
+      }
+    }
+  }
+}
+
+#expaModal {
+  .modal-dialog {
+    .modal-header {
+      background: #f05a28;
+    }
+    .modal-footer {
+      button {
+        background: #f05a28;
       }
     }
   }
@@ -981,64 +1201,45 @@ body {
       }
     }
   }
-  /*Proyectos Sociales*/
-  // .proyect-info-container {
-  //   div {
-  //     width: 42% !important;
-  //     span {
-  //       width: 40.3% !important;
-  //     }
-  //   }
-  // }
 }
 
 /* iPad screen size */
 @media screen and (max-width: 768px) {
+  .desktop-nav {
+    margin: 26px 0 24px 0;
+  }
+
+  .liderazgo-container {
+    .proyectos-banner {
+      .proyectos-desc {
+        .liderazgo-icon {
+          width: 23%;
+        }
+      }
+    }
+  }
+
   .proyectos {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
     .proyectos-container {
       .proyectos-list {
         width: 100%;
           div {
-            width: 216px;
+            width: 45%;
           }
         }
     }
     .proyectos-banner {
       width: 100%;
+      margin: 0;
+      .proyectos-desc {
+        padding: 11px;
+      }
     }
   }
-  /*Proyectos Sociales*/
-  // .proyectos-title {
-  //   padding-top: 20px;
-  //   padding-left: 118px !important;
-  //   height: 102px !important;
-  //   font-size: 37px !important;
-  //   margin-left: 12% !important;
-  //   width: 90% !important;
-  // }
-   /* Centro De Liderazgo */
-  // #centroDeLiderazgo {
-  //   .proyectos-title {
-  //     margin-left: 8% !important;
-  //   }
-  //   .agendaQuincenal {
-  //     h3 {
-  //       margin-left: 0;
-  //     }
-  //     ul {
-  //       padding: 0;
-  //       li {
-  //         width: 19.5%;
-  //       }
-  //     }
-  //   }
-  // }
-
-  // #centroLiderazgoMenu {
-  //   div {
-  //     margin-top: 150%;
-  //   }
-  // }
 
   .timeline {
     li {
@@ -1052,68 +1253,41 @@ body {
     }
   }
 
+  /* en el tiempo */
 
-
-
-
-
-
-
-
-
-
-
-
-/* en el tiempo */
-
-.en-el-tiempo {
-  // width: 125.5%;
-      min-height: 333px;
-  .en-el-tiempo-banner {
-       padding: 10px 0;
-    height: 332px;
-    // margin-top: 0;
-
-
-    div {
-     
-      img {
-      
-      }
-      .en-el-tiempo-desc {
-        h1 {
-              font-size: 28px;
+  .en-el-tiempo {
+        min-height: 333px;
+    .en-el-tiempo-banner {
+      padding: 10px 0;
+      height: 332px;
+      div {
+        .en-el-tiempo-desc {
+          h1 {
+                font-size: 28px;
+          }
         }
       }
-    }
-    .tiempo-historia {
-         // margin-left: 60px;
-             // width: 54%;
-    }
-    .nuestro-fundador {
-        // width: 36%;
-            margin-top: 5%;
-      p.fundador-date {
-           text-align: right;
-      }
-      ul {
+      .nuestro-fundador {
+          // width: 36%;
+              margin-top: 5%;
+        p.fundador-date {
+             text-align: right;
+        }
+        ul {
           width: 100%;
-    display: inline-block;
-    margin-top: 0;
-    height: 30px;
-    padding: 12px 34px;
-
-        li {
-          div {
-             width: 70px;
-    height: 70px;
-        margin-right: 4%;
-    margin-left: 4%;
-
-           
-            img {
-              width: 100%;
-         
+          display: inline-block;
+          margin-top: 0;
+          height: 30px;
+          padding: 12px 34px;
+          li {
+            div {
+              width: 70px;
+              height: 70px;
+              margin-right: 4%;
+              margin-left: 4%;         
+              img {
+                width: 100%;
+              }
             }
           }
         }
@@ -1122,30 +1296,30 @@ body {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
 /* iPad in landscape */
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape) { 
 
+  .desktop-nav {
+    margin: 26px 0 24px 0;
+  }
+
   #main-nav {
     .navbar-default {
       .container .translate-container {
         margin: 18px 0;
+      }
+    }
+  }
+
+  .proyectos {
+    .proyectos-container {
+      .proyectos-list {
+        div {
+          width: 289px;
+        }
       }
     }
   }
@@ -1164,7 +1338,6 @@ and (orientation : landscape) {
   .en-el-tiempo {
     min-height: 444px;
     .en-el-tiempo-banner {
-      // margin-top: 14.4%;
       height: 297px;
       .nuestro-fundador {
         margin-top: 4%;
@@ -1190,48 +1363,45 @@ and (orientation : landscape) {
 
 /* iPhone 6 Plus screen size */
 @media screen and (max-width: 414px) {
+  .modal-dialog {
+    width: 93%;
+    margin: 20px auto;
+  }
   .proyectos {
-    margin-top: 435px;
     .proyectos-container {
       .proyectos-list div {
         width: 363px;
       } 
     }
     .proyectos-banner {
-        position: inherit;
-        img {
-          width: 0;
-        }
-      }
-  }
-  /*Proyectos Sociales*/
-  // .proyect-info-container {
-  //   div {
-  //     span {
-  //       width: 39% !important;
-  //     }
-  //   }
-  // }
-   /* Centro De Liderazgo */
-  // #centroDeLiderazgo {
-  //   .proyectos-title {
-  //     padding-top: 0;
-  //     padding-left: 68px !important;
-  //   }
-  //   .agendaQuincenal {
-  //     ul {
-  //       li {
-  //         width: 19.2%;
-  //       }
-  //     }
-  //   }
-  // }
+      display: table-cell;
+      img {
 
-  // #centroLiderazgoMenu {
-  //   div {
-  //     margin-top: 165%;
-  //   }
-  // }
+      }
+      .proyectos-desc {
+        position: relative;
+        background-color: rgb(101, 44, 144);
+      }
+    }
+  }
+
+  .liderazgo-container {
+     .proyectos-banner {
+       .proyectos-desc {
+          div {
+            h3 {
+              font-size: 28px;
+            }
+          }
+          .liderazgo-icon {
+            display: none;
+          }
+       }
+     }
+     .liderazgo-text {
+      font-size: 14px;
+     }
+  }
 
 /* en el tiempo */
 
@@ -1272,47 +1442,62 @@ and (orientation : landscape) {
     }
 
   }
+
   li.timeline-inverted {
-    .timeline-panel{
+      .timeline-panel{
+       
+      }
+      .timeline-panel:before {
+       
+      }
+      .timeline-panel:after {
+    
+      }
+    } 
+    li:before,
+    li:after {
      
     }
-    .timeline-panel:before {
+    li:after {
      
     }
-    .timeline-panel:after {
-  
-    }
-  } 
-  li:before,
-  li:after {
-   
   }
-  li:after {
-   
+
+  .timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #eeeeee;
+    left: 50%;
+    margin-left: -1.5px;
   }
 }
 
-.timeline:before {
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  content: " ";
-  width: 3px;
-  background-color: #eeeeee;
-  left: 50%;
-  margin-left: -1.5px;
-}
-
-
-
-
-
-
-
-
-
-
-  
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) {
+  .modal-dialog {
+    width: 93%;
+    margin: 20px auto;
+    .modal-header {
+      padding: 5px;
+    }
+    .modal-body {
+      padding: 10px;
+      img {
+        width: 26%;
+      }
+      .modal-text {
+        padding: 5px 5px 0;
+      }
+    }
+    .modal-footer {
+      padding: 5px;
+    }
+  }
 }
 
 /* iPhone 6 screen size */
@@ -1320,52 +1505,14 @@ and (orientation : landscape) {
   #main-nav .navbar-default .container .navbar-collapse {
     width: 108.7%;
   }
-  /*Proyectos Sociales*/
-  // .proyect-info-container {
-  //   div {
-  //     span {
-  //       width: 38.7% !important;
-  //     }
-  //     span.two-line-title {
-  //       padding: 10px !important;
-  //     }
-  //   }
-  // }
-   /* Centro De Liderazgo */
-  // #centroDeLiderazgo {
-  //   .proyectos-title {
-  //     padding-left: 60px !important;
-  //     margin-left: 4% !important;
-  //   }
-  //   .agendaQuincenal {
-  //     ul {
-  //       li {
-  //         font-size: 12px;
-  //         width: 19.1%;
-  //       }
-  //     }
-  //   }
-  // }
 }
 
 /* iPhone 5 screen size */
 @media screen and (max-width: 320px) {
+
   #main-nav .navbar-default .container .navbar-collapse {
     width: 110.2%;
   }
-  /*Proyectos Sociales*/
-  // .proyect-info-container {
-  //   div {
-  //     width: 92% !important;
-  //     span {
-  //       width: 83.3% !important;
-  //       padding: 10px !important;
-  //     }
-  //     span.two-line-title {
-  //       padding: 0 !important;
-  //     }
-  //   }
-  // }
   .mobile-nav {
     button {
       width: 19% !important;
@@ -1382,37 +1529,17 @@ and (orientation : landscape) {
       }
     }
   }
-   /* Centro De Liderazgo */
-  // #centroDeLiderazgo {
-  //   .proyectos-title {
-  //     margin-left: 0 !important;
-  //     font-size: 31px !important;
-  //   }
-  //   .agendaQuincenal {
-  //     h3 {
-  //       font-size: 27px;
-  //     }
-  //     ul {
-  //       li {
-  //         font-size: 11px;
-  //         width: 18.9%;
-  //       }
-  //     }
-  //   }
-  // }
 }
 
 .mobile-nav {
   background-color: #e95853;
   color: #fff;
-  // margin-bottom: 10px;
-  margin: 0 0 10px 0;
+  margin: 10px 0 10px 0;
   button {
     width: 18%;
     font-size: 10px;
     float: left;
     padding: 7px 0;
-    // margin-right: 5px;
     margin: 0 3px 0 3px;
     border-radius: 0;
     i {
@@ -1430,7 +1557,6 @@ and (orientation : landscape) {
     background-color: #0e76bd;
   }
   .navbar-collapse {
-    // width: 108%;
     width: 100%;
     padding: 0;
     ul {
@@ -1459,24 +1585,7 @@ and (orientation : landscape) {
 /*Proyectos Sociales*/
 .proyectos-container {
   position: relative;
-  z-index: -1;
-  // padding: 45px 0;
-  // .proyectos-text {
-  //   .proyect-info-container {
-  //     div {
-  //       width: 44%;
-  //       span {
-  //         width: 44%;
-  //       }
-  //       .lower-bar {
-  //         background-color: #8ec63f;
-  //         width: 100%;
-  //         height: 27px;
-  //         margin: 0;
-  //       }
-  //     }
-  //   }
-  // }
+  // z-index: -1;
 }
 
 // .proyectos-title {
