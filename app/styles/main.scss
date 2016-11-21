@@ -534,6 +534,7 @@ body {
       font-size: 28px;
     }
   }
+
   .proyectos-container {
     .proyectos-list {
       div {
@@ -601,6 +602,36 @@ body {
         background-color: #f05a28;
         background-size: 130px 64px;
         background-image: url('../images/expa.png');
+      }
+    }
+  }
+}
+
+.liderazgo-container {
+  .proyectos-banner {
+    .proyectos-desc {
+      background-color: rgba(140, 198, 62, 0.63);
+      width: 100%;
+      .liderazgo-icon {
+        width: 16%;
+        float: left;
+        border-left: 0;
+        border-right: 1px solid #fff;
+        margin-right: 30px;
+        img {
+          width: 120px;
+        }
+      }
+      .programa-description {
+        border-left: 0;
+      }
+    }
+  }
+  .liderazgo-text {
+    div {
+      h3 {
+        color: #0067b1;
+        text-align: center;
       }
     }
   }
@@ -1178,6 +1209,16 @@ body {
     margin: 26px 0 24px 0;
   }
 
+  .liderazgo-container {
+    .proyectos-banner {
+      .proyectos-desc {
+        .liderazgo-icon {
+          width: 23%;
+        }
+      }
+    }
+  }
+
   .proyectos {
     width: 100%;
     display: inline-block;
@@ -1342,6 +1383,24 @@ and (orientation : landscape) {
         background-color: rgb(101, 44, 144);
       }
     }
+  }
+
+  .liderazgo-container {
+     .proyectos-banner {
+       .proyectos-desc {
+          div {
+            h3 {
+              font-size: 28px;
+            }
+          }
+          .liderazgo-icon {
+            display: none;
+          }
+       }
+     }
+     .liderazgo-text {
+      font-size: 14px;
+     }
   }
 
 /* en el tiempo */
