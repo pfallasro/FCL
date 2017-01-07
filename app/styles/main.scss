@@ -510,6 +510,46 @@ body {
   }
 }
 
+/* Quienes Somos */
+
+.quienes-somos {
+  #myCarousel {
+    height: 398px;
+    .carousel-inner {
+      .item {
+        height: 398px;
+        .carousel-caption {
+          background: rgba(0, 103, 177, 0.55);
+          width: 100%;
+          margin-bottom: -20px;
+          left: 0;
+          padding: 20px 13% 60px 13%;
+          .carousel-caption-col {
+            width: 50%;
+            float: left;
+            text-align: left;
+            ul {
+              padding-left: 0;
+              li {
+                list-style: none;
+              }
+            }
+          }
+        }
+      }
+    }
+    .carousel-control {
+      .glyphicon {
+        margin-top: 65px;
+      }
+    }
+    .quienes-somos-img {
+      width: 100%;
+      position: absolute;
+    }
+  }
+}
+
 /* proyectos */
 
 .proyectos {
