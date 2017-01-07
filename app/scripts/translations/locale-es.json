@@ -26,5 +26,9 @@
   "SECONDARY_POSITIVE_LEADERSHIP_WORKSHOPS":"Talleres de Liderazgo Poisitivo",
   "SECONDARY_COMMUNITY_PRESENCE":"Presencia Comunitaria",
   "SECONDARY_COUNSELING":"Asesorías",
-  "SECONDARY_TRAINING_AND_PROJECT_MANAGEMENT":"Entrenamiento y Gestión de Proyectos Sociales"
+  "SECONDARY_TRAINING_AND_PROJECT_MANAGEMENT":"Entrenamiento y Gestión de Proyectos Sociales",
+
+  "FRIENDSHIP_NETWORK":"Red De Amigos",
+  "LEADING_COMPANIES":"Entes Líderes",
+  "LEADING_COMPANIES_DESCRIPTION":"Estas empresas e instituciones han creído en nuestro trabajo y se han sumado a las iniciativas que buscan el progreso a través de la educación y la cultura."
 }

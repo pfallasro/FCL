@@ -57,21 +57,21 @@ angular
         // controller: 'agendaQuincenal'
       })
       .when('/eneltiempo', {
-        templateUrl: 'views/enElTiempo.html'
+        templateUrl: 'views/eneltiempo.html'
         // controller: 'eneltiempo'
       })
       .when('/quienessomos', {
-        templateUrl: 'views/quienesSomos.html'
+        templateUrl: 'views/quienessomos.html'
         // controller: 'quienessomos'
       })
       .when('/programa', {
         templateUrl: 'views/programa.html'
         // controller: 'programa'
       })
-      // .when('/eneltiempobanner', {
-      //   templateUrl: 'views/eneltiempo-banner.html'
-      //   // controller: 'eneltiempobanner'
-      // })
+      .when('/imm', {
+        templateUrl: 'views/imm.html'
+        // controller: 'IMMCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
