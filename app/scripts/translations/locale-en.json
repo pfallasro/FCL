@@ -26,5 +26,9 @@
   "SECONDARY_POSITIVE_LEADERSHIP_WORKSHOPS":"Positive Leadership Workshops",
   "SECONDARY_COMMUNITY_PRESENCE":"Community Presence",
   "SECONDARY_COUNSELING":"Counseling",
-  "SECONDARY_TRAINING_AND_PROJECT_MANAGEMENT":"Training and Management of Social Projects"
+  "SECONDARY_TRAINING_AND_PROJECT_MANAGEMENT":"Training and Management of Social Projects",
+
+  "FRIENDSHIP_NETWORK":"Friendship Network",
+  "LEADING_COMPANIES":"Leading Companies:",
+  "LEADING_COMPANIES_DESCRIPTION":"These companies and institutions have believed in our work and have joined initiatives that seek progress through education and culture."
 }
