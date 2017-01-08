@@ -515,6 +515,7 @@ body {
 .quienes-somos {
   #myCarousel {
     height: 398px;
+    margin-bottom: 30px;
     .carousel-inner {
       .item {
         height: 398px;
@@ -534,6 +535,13 @@ body {
                 list-style: none;
               }
             }
+            border-left: 1px solid #fff;
+            padding-left: 20px;
+          }
+          .quienes-somos-icon {
+            width: 140px;
+            float: left;
+            padding: 0 30px;
           }
         }
       }
@@ -548,6 +556,80 @@ body {
       position: absolute;
     }
   }
+  .quienes-somos-text-col {
+    h3 {
+      background-repeat: no-repeat;
+      background-size: 40px;
+      background-position: 80px 0;
+      border-right: 1px solid gray;
+      width: 135px;
+      height: 36px;
+      float: left;
+      color: #0067b1;
+    }
+    p {
+      width: 75%;
+      float: left;
+      padding-left: 10px;
+      padding-top: 15px;
+      text-align: justify;
+    }
+    .mision-heading {
+      background-image: url('../images/mision-icon.png'); 
+    }
+    .vision-heading {
+      background-image: url('../images/vision-icon.png');  
+      background-size: 39px 35px;
+    }
+    .valores-heading {
+      width: 95px;
+    }
+    .valores-text {
+      width: 80%;
+    }
+    .valores-list {
+      width: 32%;
+      float: left;
+      padding-left: 0;
+      margin-top: 20px;
+      li {
+        background-size: 30px;
+        list-style: none;
+        background-repeat: no-repeat;
+        height: 30px;
+        padding: 4px 40px;
+        margin-bottom: 15px;
+      }
+      .valores-1 {
+        background-image: url(../images/1.png);
+      }
+      .valores-2 {
+        background-image: url(../images/2.png);
+      }
+      .valores-3 {
+        background-image: url(../images/3.png);
+      }
+      .valores-4 {
+        background-image: url(../images/4.png);
+      }
+      .valores-5 {
+        background-image: url(../images/5.png);
+      }
+      .valores-6 {
+        background-image: url(../images/6.png);
+      }
+      .valores-7 {
+        background-image: url(../images/7.png);
+      }
+    }
+  }
+  .valores {
+    padding-left: 77px;
+  }
+  // .liderazgo-container .liderazgo-text div h3 {
+  //   color: #0067b1;
+  //   text-align: center;
+  // }
 }
 
 /* proyectos */
