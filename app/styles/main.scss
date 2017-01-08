@@ -515,6 +515,7 @@ body {
 .quienes-somos {
   #myCarousel {
     height: 398px;
+    margin-bottom: 30px;
     .carousel-inner {
       .item {
         height: 398px;
@@ -534,6 +535,13 @@ body {
                 list-style: none;
               }
             }
+            border-left: 1px solid #fff;
+            padding-left: 20px;
+          }
+          .quienes-somos-icon {
+            width: 140px;
+            float: left;
+            padding: 0 30px;
           }
         }
       }
@@ -547,6 +555,76 @@ body {
       width: 100%;
       position: absolute;
     }
+  }
+  .quienes-somos-text-col {
+    h3 {
+      background-repeat: no-repeat;
+      background-size: 40px;
+      background-position: 80px 0;
+      border-right: 1px solid gray;
+      width: 135px;
+      height: 36px;
+      float: left;
+      color: #0067b1;
+    }
+    p {
+      width: 75%;
+      float: left;
+      padding-left: 10px;
+      padding-top: 15px;
+      text-align: justify;
+    }
+    .mision-heading {
+      background-image: url('../images/mision-icon.png'); 
+    }
+    .vision-heading {
+      background-image: url('../images/vision-icon.png');  
+      background-size: 39px 35px;
+    }
+    .valores-heading {
+      width: 95px;
+    }
+    .valores-text {
+      width: 80%;
+    }
+    .valores-list {
+      width: 32%;
+      float: left;
+      padding-left: 0;
+      margin-top: 20px;
+      li {
+        background-size: 30px;
+        list-style: none;
+        background-repeat: no-repeat;
+        height: 30px;
+        padding: 4px 40px;
+        margin-bottom: 15px;
+      }
+      .valores-1 {
+        background-image: url(../images/1.png);
+      }
+      .valores-2 {
+        background-image: url(../images/2.png);
+      }
+      .valores-3 {
+        background-image: url(../images/3.png);
+      }
+      .valores-4 {
+        background-image: url(../images/4.png);
+      }
+      .valores-5 {
+        background-image: url(../images/5.png);
+      }
+      .valores-6 {
+        background-image: url(../images/6.png);
+      }
+      .valores-7 {
+        background-image: url(../images/7.png);
+      }
+    }
+  }
+  .valores {
+    padding-left: 77px;
   }
 }
 
@@ -1334,6 +1412,45 @@ body {
       }
     }
   }
+  /* Quienes Somos */
+  .quienes-somos {
+    .valores {
+      padding-left: 15px;
+    }
+    .quienes-somos-text-col {
+      width: 100%;
+      p {
+        width: 100%;
+        text-align: initial;
+      }
+      .valores-text {
+        width: 100%;
+      }
+      .valores-heading {
+        width: 135px;
+      }
+    }
+    #myCarousel {
+      height: 252px;  
+      .carousel-inner {
+        .item {
+          height: 252px;
+          .carousel-caption {
+            padding: 60px 13% 60px 13%;
+            .carousel-caption-col {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      .carousel-control {
+        .glyphicon {
+          margin-top: -10px;
+        }
+      }
+    }
+  }
+  
 }
 
 /* iPad in landscape */
@@ -1398,7 +1515,29 @@ and (orientation : landscape) {
       }
     }
   }
-
+  .quienes-somos {
+    #myCarousel {
+      height: 329px;
+      .carousel-inner {
+        .item {
+          height: 328px;
+        }
+      }
+      .carousel-control {
+        .glyphicon {
+          margin-top: 0;
+        }
+      }
+    }
+    .valores {
+      padding-left: 0;
+    }
+    .quienes-somos-text-col {
+      p {
+        text-align: initial;
+      }
+    }
+  }
 }
 
 /* iPhone 6 Plus screen size */
@@ -1513,6 +1652,44 @@ and (orientation : landscape) {
     left: 50%;
     margin-left: -1.5px;
   }
+  /* Quienes Somos */
+  .quienes-somos {
+    .quienes-somos-text-col {
+      .valores-list {
+        width: 50%;
+      }
+      p {
+        padding-left: 0;
+      }
+    }
+    #myCarousel {
+      height: 418px;
+      .carousel-inner {
+        margin-top: 12%;
+        position: absolute;
+        .item {
+          height: 376px;
+          .carousel-caption {
+            padding: 20px 13% 0px 13%;
+            min-height: 296px;
+            background: #0067b1;
+            .carousel-caption-col {
+              width: 100%;
+              font-size: 10px;
+            }
+          }
+        }
+      }
+      .carousel-indicators {
+        top: 94%;
+      }
+      .carousel-control {
+        .glyphicon {
+          margin-top: 43px;
+        }
+      }
+    }
+  }
 }
 
 @media only screen 
@@ -1538,12 +1715,57 @@ and (orientation : landscape) {
       padding: 5px;
     }
   }
+  .quienes-somos {
+    #myCarousel {
+      .quienes-somos-img {
+        height: 252px;
+      }
+    }
+  }
 }
 
 /* iPhone 6 screen size */
 @media screen and (max-width: 375px) {
   #main-nav .navbar-default .container .navbar-collapse {
     width: 108.7%;
+  }
+  .quienes-somos {
+    #myCarousel {
+      height: 427px;
+      .carousel-inner {
+        margin-top: 16%;
+        .item {
+          height: 377px;
+          .carousel-caption {
+            min-height: 300px;
+          }
+        }
+        .item {
+          // padding: 35px 13% 0px 13%;
+          .carousel-caption {
+            min-height: 318px;
+            padding: 20px 13% 0px 13%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) { 
+  .quienes-somos {
+    #myCarousel {
+      .carousel-inner {
+        .item {
+          .carousel-caption {
+            padding: 60px 13% 25px 13%;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -1566,6 +1788,46 @@ and (orientation : landscape) {
       ul {
         float: right;
         padding-left: 0;
+      }
+    }
+  }
+
+  .quienes-somos {
+    #myCarousel {
+      height: 480px;
+      .carousel-inner {
+        margin-top: 35%;
+        .item {
+          height: 390px;
+          .carousel-caption {
+            min-height: 390px;
+            padding: 15px 13% 0px 13%;
+          }
+        }
+      }
+      .carousel-indicators {
+        top: 94%;
+      }
+    }
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) { 
+  .quienes-somos {
+    #myCarousel {
+      .carousel-inner {
+        .item {
+          .carousel-caption {
+            padding: 20px 13% 0 13%;
+            height: 100%;
+            .carousel-caption-col {
+              font-size: 11px;
+            }
+          }
+        }
       }
     }
   }
