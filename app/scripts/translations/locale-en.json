@@ -1,5 +1,4 @@
 {
-  "HELLO": "Hello",
   "BUTTON_LANG_ES": "Español",
   "BUTTON_LANG_EN": "English",
 
@@ -37,39 +36,67 @@
 
   "PODER":"PODER: To want is power",
   "PODER_DESCRIPTION":"It is intended to develop a strategy and apply it to achieve a positive impact on the lifestyle of mothers or housewives in the area of healthy eating habits and physical activity.",
-
   "KOIPA":"KöIPA: Inspiration, Passion and Art",
   "KOIPA_DESCRIPTION":"The project consists on developing artistic workshops in the disciplines of literature, theater, poetry and music, which will be taught in the Leadership Center of the Ciudadelas de Libertad foundation. What is intended is to enhance the different skills of young people.",
-
   "NISA":"NISA: Healthy Childhood",
   "NISA_DESCRIPTION":"The project, through sport, aims not only to encourage the physical effort of the population served, but also to raise awareness about the importance of having a healthy lifestyle, while promoting the values that sport brings.",
-
   "EPT":"EPT: Education for All",
   "EPT_DESCRIPTION":"The project has as its fundamental axis the educational area. Where after an analysis carried out, it is perceived the need in our canton to reinforce the knowledge on national academic and technical baccalaureate tests, being support for students who do not have access to particular lessons for proper preparation. In this way it is intended to contribute to raise the rates of promotion of high school tests in the canton of Desamparados.",
-
   "HUELLAS":"HUELLAS: Respect, Empathy and Support",
   "HUELLAS_DESCRIPTION":"Develop social awareness in the desamparadeña population, about the importance of respect for the migrant population that are part of the community, with the purpose of eradicating xenophobic and discriminatory attitudes to promote empathy and support to this population.",
-
   "BATSULA":"Bätsulá: Environmental Responsibility",
   "BATSULA_DESCRIPTION":"We want to work on two fundamental axes: Social and Environmental. Creating a responsibility through a process of training and information, training the population served. It will also seek to work on encouraging the creation of municipal programs with Environmental Responsibility",
-
   "EDUCATIONAL_NETWORKS":"Educational Networks",
   "EDUCATIONAL_NETWORKS_DESCRIPTION":"It was born with the purpose of supporting adults and older adults of Desamparados, who want to develop and strengthen their knowledge in the field of technology. This project will focus on providing the necessary tools to reduce the digital divide that limits the population to be addressed, to strengthen areas such as digital literacy, communication, information and entertainment.",
-
   "SPORTS_LEADERS":"Sports Leaders",
   "SPORTS_LEADERS_DESCRIPTION":"The purpose of the project is to promote sport in the youth population as a healthy recreation space for the district population and nearby communities.",
-
   "HASA":"HASA: Let's talk about health",
   "HASA_DESCRIPTION":"The Social Project \"Let's Talk about Health\" aims to promote healthy lifestyles by developing interactive and informative activities on the most frequent chronic diseases in the population of the canton of Desamparados. This covers contents corresponding to health and good habits that seek the prevention of diseases.",
-
   "EQUIDAD":"EQUIDAD: Let's be People",
   "EQUIDAD_DESCRIPTION":"The project consists of a gender equity campaign, which seeks to raise awareness of people's rights and the process of how to assert them against various circumstances that are being repressed. However, the emphasis of the campaign is to cover the issue of gender violence.",
-
   "EDUFI":"EDUFI: Financial Education",
   "EDUFI_DESCRIPTION":"The EDUFI Project aims to provide a set of skills and knowledge related to financial education in order to provide a more conscious and prosperous population in the sector of Homeless, this through an appropriate management of resources.",
-
   "EXPA":"EXPA: Children's Artistic Expression \"PROARTI\"",
-  "EXPA_DESCRIPTION":"The project consists on developing artistic workshops with an emphasis on theater in order to develop and enhance the artistic skills of children in the district of Frailes of Desamparados. In addition to creating a space according to the needs of the population and encourage their creativity."
+  "EXPA_DESCRIPTION":"The project consists on developing artistic workshops with an emphasis on theater in order to develop and enhance the artistic skills of children in the district of Frailes of Desamparados. In addition to creating a space according to the needs of the population and encourage their creativity.",
 
+  "WHO_ARE_WE":"ABOUT US?",
+  "WHO_ARE_WE_DESCRIPTION":"A social, non-profit and self-managed institution that promotes the educational and cultural development of the youths of the canton of Desamparados. We promote leadership as a tool for social transformation.",
+
+  "BOARD":"Board of directors",
+  "PRESIDENT":"President / Mr. Jorge Chinchilla Castro",
+  "VICEPRESIDENT":"Vice President / Mr. Víctor Bermúdez Mora",
+  "TREASURER":"Treasurer / Mr. Guillermo Azofeifa Cascante",
+  "VOCALONE":"Vocal 1 / Sr. Jorge Agüero Chaves",
+  "VOCALTWO":"Vocal 2 / Sr. Roberto Díaz Páez",
+  "ADVISORY":"ADVISORY COMMITTEES",
+  "AUDIT":"Audit Committee",
+  "YOUTH":"Youth Leadership Program Committee",
+  "INSTITUTION_MARIA":"Committee of the Institution María Mariano",
+  "COMM_COMMITTEE":"Communications Committee",
+
+  "WORK_TEAM":"WORK TEAM",
+  "EXECUTIVE_DIRECTION":"Executive Direction / Lic. Luis Cesar Monge Hernández",
+  "COORDINATION_PLJ":"Coordination of PLJ / Licda. Elementary proficiency",
+  "SOCIAL_WORK_PLJ":"Social Work PLJ / Ariana Fonseca Vindas",
+  "SECRETARIAT_PLJ":"Secretariat PLJ / Bangili Barquero Umaña",
+  "ADMINISTRATIVE_COORDINATION":"Administrative Coordination / Lic. Karla Fernández Barboza",
+  "COUNSELING":"Counseling / Cristopher Ruiz Herrera",
+  "ADMINISTRATIVE_SECRETARY":"Administrative Secretary / Ivannia Baltodano Romero",
+  "COMMUNICATION_MANAGEMENT":"Communication Management / Francinny Durán Obando",
+  "RECEPTION":"Reception / Luis Zúñiga Del Valle",
+  "GENERAL_SERVICES":"General Services / Miriam Padilla Mora",
+
+  "MISSION":"Mission",
+  "MISSION_DESCRIPTION":"To stimulate the progress of the canton of Desamparados, favoring the educational and cultural development of its inhabitants.",
+  "VISION":"Vision",
+  "VISION_DESCRIPTION":"To be a self-sustaining and avant-garde institution that contributes to the professional and social development of young people in need to promote the canton's progress, providing them with opportunities for education and formation of their social conscience, through the co-development of experiential experiences of projection to the community.",
+  "VALUES":"Values",
+  "VALUES_DESCRIPTION":"For us it is very important to put into practice the values and ideals that our founder pursued and therefore every day our efforts always entail:",
+  "VALUE_ONE":"Freedom",
+  "VALUE_TWO":"Leadership",
+  "VALUE_THREE":"Excellence",
+  "VALUE_FOUR":"Authenticity",
+  "VALUE_FIVE":"Loyalty",
+  "VALUE_SIX":"Deligence",
+  "VALUE_SEVEN":"Responsibility"
 }
-
