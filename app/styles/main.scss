@@ -628,6 +628,274 @@ body {
   }
 }
 
+/* IMM */
+
+.imm {
+  .imm-banner {
+    position: relative;
+    img {
+      width: 100%
+    }
+    .banner-text {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 200px;
+      background: rgba(0, 147, 68, 0.62);
+      width: 100%;
+      padding: 25px 85px;
+      color: #fff;
+      img {
+        width: 115px;
+        float: left;
+        border-right: 1px solid #fff;
+        padding-right: 15px;
+        margin-right: 30px;
+      }
+    }
+  }
+  .imm-text {
+    margin-top: 40px;
+    .col-md-4 {
+      // background: #b8e5ce;
+      border-right: 1px solid gray;
+      padding-left: 0;
+      div {
+        background: rgba(56, 180, 73, 0.33);
+        width: 100%;
+        /* position: absolute; */
+        padding-right: 20px;
+        display: inline-block;
+        .imm-span1 {
+          font-weight: 700;
+          color: #006bb3;
+          font-size: 22px;
+        }
+        .imm-span2 {
+          font-weight: 800;
+          color: #006bb3;
+          font-size: 50px;
+          margin-top: -18px;
+          margin-bottom: -30px;
+        }
+        .imm-span3 {
+          font-weight: 800;
+          color: #009344;
+          font-size: 48px;
+        }
+        span {
+          width: 100%;
+          float: left;
+          text-align: right;
+          // background: #b8e5ce;
+        }
+      }  
+    }
+    .col-md-8 {
+      img {
+        margin: 0 auto;
+        display: flex;
+        width: 65%;
+      }
+    }
+  }
+}
+
+/* Agenda Quincenal */
+
+// @import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
+// @import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+    
+    .event-list {
+    list-style: none;
+    // font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+  .event-list > li {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px rgb(51, 51, 51);
+    box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+    padding: 0px;
+    margin: 0px 0px 20px;
+  }
+  .event-list > li > time {
+    display: inline-block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: #e95853;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .event-list > li:nth-child(even) > time {
+    background-color: #0e76bd;
+  }
+  .event-list > li > time > span {
+    display: none;
+  }
+  .event-list > li > time > .day {
+    display: block;
+    font-size: 56pt;
+    font-weight: 100;
+    line-height: 1;
+  }
+  .event-list > li time > .month {
+    display: block;
+    font-size: 24pt;
+    font-weight: 900;
+    line-height: 1;
+  }
+  .event-list > li > img {
+    width: 100%;
+  }
+  .event-list > li > .info {
+    padding-top: 5px;
+    text-align: center;
+  }
+  .event-list > li > .info > .title {
+    font-size: 17pt;
+    font-weight: 700;
+    margin: 0px;
+  }
+  .event-list > li > .info > .desc {
+    font-size: 13pt;
+    font-weight: 300;
+    margin: 0px;
+  }
+  .event-list > li > .info > ul,
+  .event-list > li > .social > ul {
+    display: table;
+    list-style: none;
+    margin: 10px 0px 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .event-list > li > .social > ul {
+    margin: 0px;
+  }
+  .event-list > li > .info > ul > li,
+  .event-list > li > .social > ul > li {
+    display: table-cell;
+    cursor: pointer;
+    color: rgb(30, 30, 30);
+    font-size: 11pt;
+    font-weight: 300;
+        padding: 3px 0px;
+  }
+    .event-list > li > .info > ul > li > a {
+    display: block;
+    width: 100%;
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+  } 
+    .event-list > li > .social > ul > li {    
+        padding: 0px;
+    }
+    .event-list > li > .social > ul > li > a {
+        padding: 3px 0px;
+  } 
+  .event-list > li > .info > ul > li:hover,
+  .event-list > li > .social > ul > li:hover {
+    color: rgb(30, 30, 30);
+    background-color: rgb(200, 200, 200);
+  }
+  .facebook a,
+  .twitter a,
+  .google-plus a {
+    display: block;
+    width: 100%;
+    color: rgb(75, 110, 168) !important;
+  }
+  .twitter a {
+    color: rgb(79, 213, 248) !important;
+  }
+  .google-plus a {
+    color: rgb(221, 75, 57) !important;
+  }
+  .facebook:hover a {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(75, 110, 168) !important;
+  }
+  .twitter:hover a {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(79, 213, 248) !important;
+  }
+  .google-plus:hover a {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(221, 75, 57) !important;
+  }
+
+  @media (min-width: 768px) {
+    .event-list > li {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 120px;
+      padding: 0px;
+    }
+    .event-list > li > time,
+    .event-list > li > img  {
+      display: inline-block;
+    }
+    .event-list > li > time,
+    .event-list > li > img {
+      width: 120px;
+      float: left;
+    }
+    .event-list > li > .info {
+      background-color: rgb(245, 245, 245);
+      overflow: hidden;
+    }
+    .event-list > li > time,
+    .event-list > li > img {
+      width: 120px;
+      height: 120px;
+      padding: 0px;
+      margin: 0px;
+    }
+    .event-list > li > .info {
+      position: relative;
+      height: 120px;
+      text-align: left;
+      padding-right: 40px;
+    } 
+    .event-list > li > .info > .title, 
+    .event-list > li > .info > .desc {
+      padding: 0px 10px;
+    }
+    .event-list > li > .info > ul {
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+    }
+    .event-list > li > .social {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      display: block;
+      width: 40px;
+    }
+        .event-list > li > .social > ul {
+            border-left: 1px solid rgb(230, 230, 230);
+        }
+    .event-list > li > .social > ul > li {      
+      display: block;
+            padding: 0px;
+    }
+    .event-list > li > .social > ul > li > a {
+      display: block;
+      width: 40px;
+      padding: 10px 0px 9px;
+    }
+  }
+
+
+
+
+
+
 /* proyectos */
 
 .proyectos {
@@ -1161,42 +1429,6 @@ body {
 //   }
 // }
 
-#centroDeLiderazgo {
-  .agendaQuincenal {
-    h3 {
-      color: #0168b3;
-      font-size: 30px;
-      text-transform: uppercase;
-      margin-left: 40px;
-    }
-    ul {
-      li {
-        list-style: none;
-        width: 19%;
-        float: left;
-        padding: 10px 0;
-        text-align: center;
-      }
-    }
-    .agendaHeading {
-      li {
-        background-color: #0168b3;
-        color: #fff; 
-        margin-right: 3px;
-      }
-    }
-    .agendaTableContent {
-      li {
-        background-color: #cdced0;
-        color: #6e6f73;
-        max-height: 40px;
-        min-height: 40px;
-        margin: 3px 3px 0 0;
-      }
-    }
-  }
-}
-
 @media screen and (max-width: 767px) {
   .desktop-nav {
     display: none;
@@ -1690,6 +1922,24 @@ and (orientation : landscape) {
       }
     }
   }
+
+  /* IMM */
+
+  .imm {
+    .imm-banner {
+      .banner-text {
+        padding: 17px 18px;
+        height: 100%;
+        img {
+          width: 67px;
+        }
+        h3 {
+          margin-top: 0;
+          font-size: 22px;
+        }
+      }
+    }
+  }
 }
 
 @media only screen 
@@ -1810,6 +2060,28 @@ and (orientation : landscape) {
       }
     }
   }
+  /* IMM */
+
+  .imm {
+    .imm-banner {
+      .banner-text {
+        padding: 17px 18px;
+        height: 100%;
+        img {
+          width: 67px;
+        }
+        p {
+          width: 100%;
+          display: flex;
+          font-size: 12px;
+        }
+        h3 {
+          margin-top: 0;
+          font-size: 20px;
+        }
+      }
+    }
+  }
 }
 
 @media only screen 
@@ -1831,6 +2103,19 @@ and (orientation : landscape) {
       }
     }
   }
+  /* IMM */
+
+  .imm {
+    .imm-banner {
+      .banner-text {
+        p {
+          font-size: 12px;
+        }    
+      }
+    }
+  }
+
+
 }
 
 .mobile-nav {
