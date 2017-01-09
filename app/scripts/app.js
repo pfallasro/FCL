@@ -76,14 +76,6 @@ angular
       })
 
       //CENTRO DE LIDERAZGO
-      .when('/cursos', {
-        templateUrl: 'views/cursos.html'
-        // controller: 'IMMCtrl'
-      })
-      .when('/concursos', {
-        templateUrl: 'views/concursos.html'
-        // controller: 'IMMCtrl'
-      })
       .when('/agendaQuincenal', {
         templateUrl: 'views/agendaQuincenal.html'
         // controller: 'agendaQuincenal'
