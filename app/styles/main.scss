@@ -628,6 +628,79 @@ body {
   }
 }
 
+/* IMM */
+
+.imm {
+  .imm-banner {
+    position: relative;
+    img {
+      width: 100%
+    }
+    .banner-text {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 200px;
+      background: rgba(0, 147, 68, 0.62);
+      width: 100%;
+      padding: 25px 85px;
+      color: #fff;
+      img {
+        width: 115px;
+        float: left;
+        border-right: 1px solid #fff;
+        padding-right: 15px;
+        margin-right: 30px;
+      }
+    }
+  }
+  .imm-text {
+    margin-top: 40px;
+    .col-md-4 {
+      // background: #b8e5ce;
+      border-right: 1px solid gray;
+      padding-left: 0;
+      div {
+        background: rgba(56, 180, 73, 0.33);
+        width: 100%;
+        /* position: absolute; */
+        padding-right: 20px;
+        display: inline-block;
+        .imm-span1 {
+          font-weight: 700;
+          color: #006bb3;
+          font-size: 22px;
+        }
+        .imm-span2 {
+          font-weight: 800;
+          color: #006bb3;
+          font-size: 50px;
+          margin-top: -18px;
+          margin-bottom: -30px;
+        }
+        .imm-span3 {
+          font-weight: 800;
+          color: #009344;
+          font-size: 48px;
+        }
+        span {
+          width: 100%;
+          float: left;
+          text-align: right;
+          // background: #b8e5ce;
+        }
+      }  
+    }
+    .col-md-8 {
+      img {
+        margin: 0 auto;
+        display: flex;
+        width: 65%;
+      }
+    }
+  }
+}
+
 /* proyectos */
 
 .proyectos {
@@ -1690,6 +1763,24 @@ and (orientation : landscape) {
       }
     }
   }
+
+  /* IMM */
+
+  .imm {
+    .imm-banner {
+      .banner-text {
+        padding: 17px 18px;
+        height: 100%;
+        img {
+          width: 67px;
+        }
+        h3 {
+          margin-top: 0;
+          font-size: 22px;
+        }
+      }
+    }
+  }
 }
 
 @media only screen 
@@ -1810,6 +1901,28 @@ and (orientation : landscape) {
       }
     }
   }
+  /* IMM */
+
+  .imm {
+    .imm-banner {
+      .banner-text {
+        padding: 17px 18px;
+        height: 100%;
+        img {
+          width: 67px;
+        }
+        p {
+          width: 100%;
+          display: flex;
+          font-size: 12px;
+        }
+        h3 {
+          margin-top: 0;
+          font-size: 20px;
+        }
+      }
+    }
+  }
 }
 
 @media only screen 
@@ -1831,6 +1944,19 @@ and (orientation : landscape) {
       }
     }
   }
+  /* IMM */
+
+  .imm {
+    .imm-banner {
+      .banner-text {
+        p {
+          font-size: 12px;
+        }    
+      }
+    }
+  }
+
+
 }
 
 .mobile-nav {
