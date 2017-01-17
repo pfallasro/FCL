@@ -86,19 +86,10 @@ angular
       })
 
       //PRENSA
-      .when('/ultimasnoticias', {
-        templateUrl: 'views/ultimasNoticias.html'
+      .when('/prensa', {
+        templateUrl: 'views/prensa.html'
         // controller: 'ultimasnoticias'
       })
-      .when('/testimonios', {
-        templateUrl: 'views/testimonios.html'
-        // controller: 'testimonios'
-      })
-      .when('/informes', {
-        templateUrl: 'views/informes.html'
-        // controller: 'informes'
-      })
-
       //DANOS UNA MANO
       .when('/danosunamano', {
         templateUrl: 'views/danosunamano.html'

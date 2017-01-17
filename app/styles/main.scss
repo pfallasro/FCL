@@ -669,6 +669,41 @@ body {
   }
 }
 
+/* Prensa */
+
+.prensa {
+  .prensa-banner {
+    position: relative;
+    margin-bottom: 55px;
+    img {
+      width: 100%;
+    }
+    .prensa-banner-text {
+      background: rgba(240, 90, 40, 0.69);
+      color: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      img {
+        width: 75px;
+        height: 75px;
+        float: left;
+        margin: 35px 40px 35px 100px;
+      }
+      p, h2 {
+        width: 63%;
+        float: left;
+      }
+    }
+  }
+  .prensa-banner-text-mobile {
+    display: none;
+  }
+  .first-video-row {
+    margin: 40px 0;
+  }
+}
+
 /* IMM */
 
 .imm {
@@ -2023,6 +2058,39 @@ and (orientation : landscape) {
       }
     }
   }
+
+  /* Prensa */
+
+  .prensa {
+    .prensa-banner {
+      margin-bottom: 0;
+      .prensa-banner-text {
+        display: none;
+      }
+    }
+    .prensa-banner-text-mobile {
+      display: block;
+      background: rgba(240, 90, 40, 0.69);
+      color: #fff;
+      margin-bottom: 35px;
+      img {
+        width: 50px;
+        height: 50px;
+        margin: 9px 12px 5px 14px;
+        float: left;
+      }
+      h2 {
+        padding: 10px 10px 0 10px;
+        margin-top: 0;
+      }
+      p {
+        padding: 10px;
+      }
+      h2, p {
+        width: 98%;
+      }
+    }
+  }
 }
 
 @media only screen 
@@ -2210,6 +2278,39 @@ and (orientation : landscape) {
     .danos-una-mano-banner-text-mobile {
       display: block;
       background: rgba(0, 167, 157, 0.78);
+      color: #fff;
+      margin-bottom: 35px;
+      img {
+        width: 50px;
+        height: 50px;
+        margin: 9px 12px 5px 14px;
+        float: left;
+      }
+      h2 {
+        padding: 10px 10px 0 10px;
+        margin-top: 0;
+      }
+      p {
+        padding: 10px;
+      }
+      h2, p {
+        width: 98%;
+      }
+    }
+  }
+
+  /* Prensa */
+
+  .prensa {
+    .prensa-banner {
+      margin-bottom: 0;
+      .prensa-banner-text {
+        display: none;
+      }
+    }
+    .prensa-banner-text-mobile {
+      display: block;
+      background: rgba(240, 90, 40, 0.69);
       color: #fff;
       margin-bottom: 35px;
       img {
