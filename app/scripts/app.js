@@ -100,19 +100,10 @@ angular
       })
 
       //DANOS UNA MANO
-      .when('/contribuciones', {
-        templateUrl: 'views/contribuciones.html'
+      .when('/danosunamano', {
+        templateUrl: 'views/danosunamano.html'
         // controller: 'contribuciones'
       })
-      .when('/voluntariado', {
-        templateUrl: 'views/voluntariado.html'
-        // controller: 'voluntariado'
-      })
-      .when('/tcu', {
-        templateUrl: 'views/tcu.html'
-        // controller: 'tcu'
-      })
-
       //SERVICIOS
       .when('/bienesraices', {
         templateUrl: 'views/bienesraices.html'

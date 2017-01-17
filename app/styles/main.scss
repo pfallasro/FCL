@@ -628,6 +628,47 @@ body {
   }
 }
 
+/* Danos una mano */
+
+.danos-una-mano {
+  form {
+    width: 50%;
+    margin: 0 auto;
+    button {
+      width: 200px;
+      margin: 55px auto;
+      display: inherit;
+    }
+  }
+  .danos-una-mano-banner {
+    position: relative;
+    margin-bottom: 55px;
+    img {
+      width: 100%;
+    }
+    .danos-una-mano-banner-text {
+      background: rgba(0, 167, 157, 0.78);
+      color: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      img {
+        width: 75px;
+        height: 75px;
+        float: left;
+        margin: 35px 40px 35px 100px;
+      }
+      p, h2 {
+        width: 63%;
+        float: left;
+      }
+    }
+  }
+  .danos-una-mano-banner-text-mobile {
+    display: none;
+  }
+}
+
 /* IMM */
 
 .imm {
@@ -1682,6 +1723,15 @@ body {
       }
     }
   }
+
+  /* Danos una mano */
+
+  .danos-una-mano {
+    form {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
   
 }
 
@@ -1940,6 +1990,39 @@ and (orientation : landscape) {
       }
     }
   }
+
+  /* Danos una mano */
+
+  .danos-una-mano {
+    .danos-una-mano-banner {
+      margin-bottom: 0;
+      .danos-una-mano-banner-text {
+        display: none;
+      }
+    }
+    .danos-una-mano-banner-text-mobile {
+      display: block;
+      background: rgba(0, 167, 157, 0.78);
+      color: #fff;
+      margin-bottom: 35px;
+      img {
+        width: 50px;
+        height: 50px;
+        margin: 9px 12px 5px 14px;
+        float: left;
+      }
+      h2 {
+        padding: 10px 10px 0 10px;
+        margin-top: 0;
+      }
+      p {
+        padding: 10px;
+      }
+      h2, p {
+        width: 98%;
+      }
+    }
+  }
 }
 
 @media only screen 
@@ -2115,7 +2198,38 @@ and (orientation : landscape) {
     }
   }
 
+  /* Danos una mano */
 
+  .danos-una-mano {
+    .danos-una-mano-banner {
+      margin-bottom: 0;
+      .danos-una-mano-banner-text {
+        display: none;
+      }
+    }
+    .danos-una-mano-banner-text-mobile {
+      display: block;
+      background: rgba(0, 167, 157, 0.78);
+      color: #fff;
+      margin-bottom: 35px;
+      img {
+        width: 50px;
+        height: 50px;
+        margin: 9px 12px 5px 14px;
+        float: left;
+      }
+      h2 {
+        padding: 10px 10px 0 10px;
+        margin-top: 0;
+      }
+      p {
+        padding: 10px;
+      }
+      h2, p {
+        width: 98%;
+      }
+    }
+  }
 }
 
 .mobile-nav {
