@@ -76,13 +76,9 @@ angular
       })
 
       //CENTRO DE LIDERAZGO
-      .when('/agendaQuincenal', {
-        templateUrl: 'views/agendaQuincenal.html'
+      .when('/centroLiderazgo', {
+        templateUrl: 'views/centroLiderazgo.html'
         // controller: 'agendaQuincenal'
-      })
-      .when('/liderespositivos', {
-        templateUrl: 'views/lideresPositivos.html'
-        // controller: 'liderespositivos'
       })
 
       //PRENSA
