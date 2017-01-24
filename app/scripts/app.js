@@ -100,21 +100,17 @@ angular
         templateUrl: 'views/bienesraices.html'
         // controller: 'bienesraices'
       })
-      .when('/taller', {
-        templateUrl: 'views/taller.html'
+      .when('/serviciosFCL', {
+        templateUrl: 'views/serviciosFCL.html'
         // controller: 'taller'
       })
-      .when('/presenciacomunitaria', {
-        templateUrl: 'views/presenciacomunitaria.html'
+      .when('/festivalJuvenil', {
+        templateUrl: 'views/festivalJuvenil.html'
         // controller: 'presenciacomunitaria'
       })
-      .when('/asesorias', {
-        templateUrl: 'views/asesorias.html'
+      .when('/carrera', {
+        templateUrl: 'views/carrera.html'
         // controller: 'asesorias'
-      })
-      .when('/entrenamiento', {
-        templateUrl: 'views/entrenamiento.html'
-        // controller: 'entrenamiento'
       })
 
       .otherwise({
