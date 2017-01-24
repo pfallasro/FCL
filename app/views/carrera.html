@@ -1,3 +1,141 @@
-CARRERA
-
 <secondary-menu></secondary-menu>
+<div id="main_area">
+        <!-- Slider -->
+        <div class="row">
+            <div class="col-xs-12" id="slider">
+                <!-- Top part of the slider -->
+                <div class="row">
+                    <div class="col-sm-8" id="carousel-bounding-box">
+                        <div class="carousel slide test">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item" data-slide-number="0">
+                                <img src="images/Carrera-Libertad/DSC_0019.JPG"></div>
+
+                                <div class="item" data-slide-number="1">
+                                <img src="images/Carrera-Libertad/DSC_0022.JPG"></div>
+
+                                <div class="item" data-slide-number="2">
+                                <img src="images/Carrera-Libertad/DSC_0027.JPG"></div>
+
+                                <div class="item" data-slide-number="3">
+                                <img src="images/Carrera-Libertad/DSC_0032.JPG"></div>
+
+                                <div class="item" data-slide-number="4">
+                                <img src="images/Carrera-Libertad/DSC_0040.JPG"></div>
+
+                                <div class="item" data-slide-number="5">
+                                <img src="images/Carrera-Libertad/DSC_0088.JPG"></div>
+
+                                <div class="item" data-slide-number="6">
+                                <img src="images/Carrera-Libertad/DSC_0094.JPG"></div>
+
+                                <div class="item" data-slide-number="7">
+                                <img src="images/Carrera-Libertad/DSC_0124.JPG"></div>
+
+                                <div class="item" data-slide-number="8">
+                                <img src="images/Carrera-Libertad/DSC_0146.JPG"></div>
+
+                                <div class="item" data-slide-number="9">
+                                <img src="images/Carrera-Libertad/DSC_0154.JPG"></div>
+
+                                <div class="item" data-slide-number="10">
+                                <img src="images/Carrera-Libertad/DSC_0156.JPG"></div>
+
+                                <div class="item" data-slide-number="11">
+                                <img src="images/Carrera-Libertad/DSC_0168.JPG"></div>
+                            </div><!-- Carousel nav -->
+                            <a class="left carousel-control" href=".test" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>                                       
+                            </a>
+                            <a class="right carousel-control" href=".test" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>                                       
+                            </a>                                
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/Slider-->
+
+        <div class="row hidden-xs" id="slider-thumbs">
+                <ul class="hide-bullets">
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-0"><img src="images/Carrera-Libertad/DSC_0019.JPG"></a>
+                    </li>
+
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-1"><img src="images/Carrera-Libertad/DSC_0022.JPG"></a>
+                    </li>
+
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-2"><img src="images/Carrera-Libertad/DSC_0027.JPG"></a>
+                    </li>
+
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-3"><img src="images/Carrera-Libertad/DSC_0032.JPG"></a>
+                    </li>
+
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-4"><img src="images/Carrera-Libertad/DSC_0040.JPG"></a>
+                    </li>
+
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-5"><img src="images/Carrera-Libertad/DSC_0088.JPG"></a>
+                    </li>
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-6"><img src="images/Carrera-Libertad/DSC_0094.JPG"></a>
+                    </li>
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-7"><img src="images/Carrera-Libertad/DSC_0124.JPG"></a>
+                    </li>
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-8"><img src="images/Carrera-Libertad/DSC_0146.JPG"></a>
+                    </li>
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-9"><img src="images/Carrera-Libertad/DSC_0154.JPG"></a>
+                    </li>
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-10"><img src="images/Carrera-Libertad/DSC_0156.JPG"></a>
+                    </li>
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-11"><img src="images/Carrera-Libertad/DSC_0168.JPG"></a>
+                    </li>
+                </ul>                 
+        </div>
+</div>
+
+<style>
+	#carousel-bounding-box {
+		margin: 0 auto;
+		float: none;
+	}
+	.hide-bullets {
+		list-style:none;
+		margin-left: -40px;
+		margin-top:20px;
+	}
+</style>
+<script>
+	jQuery(document).ready(function($) {
+ 
+	        $('.test').carousel({
+	                interval: 5000
+	        });
+	 
+	        $('#carousel-text').html($('#slide-content-0').html());
+	 
+	        //Handles the carousel thumbnails
+	       $('[id^=carousel-selector-]').click( function(){
+	            var id = this.id.substr(this.id.lastIndexOf("-") + 1);
+	            var id = parseInt(id);
+	            $('.test').carousel(id);
+	        });
+	 
+	 
+	        // When the carousel slides, auto update the text
+	        $('.test').on('slid.bs.carousel', function (e) {
+	                 var id = $('.item.active').data('slide-number');
+	                $('#carousel-text').html($('#slide-content-'+id).html());
+	        });
+	});
+</script>
