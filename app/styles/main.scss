@@ -726,6 +726,33 @@ body {
   }
 }
 
+/* Carrera - Gallery */
+
+.gallery-thumb {
+  #carousel-bounding-box {
+    margin: 0 auto;
+    float: none;
+  }
+
+  #slider-thumbs {
+    .hide-bullets {
+      list-style:none;
+      margin-left: -40px;
+      margin-top:20px;
+      .thumbnail {
+          img {
+            height: 100px;
+          }
+          a {
+            img {
+              height: 100px;
+            }
+          }
+      }
+    }
+  }
+}
+
 /* Prensa */
 
 .prensa {
