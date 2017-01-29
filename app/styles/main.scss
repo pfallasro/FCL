@@ -1920,6 +1920,27 @@ body {
     display: none;
   }
 
+
+
+  /* Carrera - Gallery */
+
+.gallery-thumb {
+  #carousel-bounding-box {
+      .carousel-inner {
+        .item {
+          img {
+            height: auto;
+          }
+          a {
+            img {
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+
 }
 
 /* iPad in landscape */
