@@ -766,6 +766,42 @@ body {
   }
 }
 
+/* Servicios */
+
+.servicios {
+  .servicios-banner {
+    position: relative;
+    margin-bottom: 55px;
+    img {
+      width: 100%;
+    }
+    .servicios-banner-text {
+      background: rgba(126, 63, 152, 0.74);
+      color: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      img {
+        width: 75px;
+        height: 75px;
+        float: left;
+        margin: 35px 40px 35px 100px;
+      }
+      p, h2 {
+        width: 63%;
+        float: left;
+      }
+      p {
+        margin: 0 0 20px;
+      }
+    }
+  }
+
+  .servicios-banner-text-mobile {
+    display: none;
+  }
+}
+
 /* Carrera */
 
 .carrera {
@@ -2385,6 +2421,46 @@ and (orientation : landscape) {
     }
   }
 
+  /* Servicios */
+
+  .servicios {
+    .servicios-banner {
+      margin-bottom: 0;
+      .servicios-banner-text {
+        display: none;
+      }
+    }
+    .servicios-banner-text-mobile {
+      display: block;
+      background: #7e3f98;
+      color: #fff;
+      margin-bottom: 35px;
+      img {
+        width: 50px;
+        height: 50px;
+        margin: 9px 12px 5px 14px;
+        float: left;
+      }
+      h2 {
+        padding: 10px 10px 0 10px;
+        margin-top: 0;
+      }
+      p {
+        padding: 10px;
+      }
+      h2, p {
+        width: 98%;
+      }
+    }
+    .row {
+      form {
+        .col-xs-6 {
+          width: 100%;
+        }
+      }
+    }
+  }
+
 
   /* Centro de Liderazgo */
 
@@ -2689,6 +2765,39 @@ and (orientation : landscape) {
     .festival-juventudes-banner-text-mobile {
       display: block;
       background: #27a9e1;
+      color: #fff;
+      margin-bottom: 35px;
+      img {
+        width: 50px;
+        height: 50px;
+        margin: 9px 12px 5px 14px;
+        float: left;
+      }
+      h2 {
+        padding: 10px 10px 0 10px;
+        margin-top: 0;
+      }
+      p {
+        padding: 10px;
+      }
+      h2, p {
+        width: 98%;
+      }
+    }
+  }
+
+  /* Servicios */
+
+  .servicios {
+    .servicios-banner {
+      margin-bottom: 0;
+      .servicios-banner-text {
+        display: none;
+      }
+    }
+    .servicios-banner-text-mobile {
+      display: block;
+      background: #7e3f98;
       color: #fff;
       margin-bottom: 35px;
       img {
