@@ -87,5 +87,77 @@
   "VALUE_FOUR":"Authenticity",
   "VALUE_FIVE":"Loyalty",
   "VALUE_SIX":"Deligence",
-  "VALUE_SEVEN":"Responsibility"
+  "VALUE_SEVEN":"Responsibility",
+
+  "WE_WERE_FOUNDED":"WE WERE FOUNDED",
+  "WE_WERE_FOUNDED_DESCRIPTION":"On April 7th, 1974, when Don Samuel, in his 50s, donated all of his assets and companies to the Foundation.",
+
+  "BEGGINING_OF_OPERATIONS":"BEGINNING OF OPERATIONS",
+  "BEGGINING_OF_OPERATIONS_DESCRIPTION":"We began in the same year thanks to the patrimony of Don Samuel, which at that time was constituted by Radio Libertad S.R.L., its facilities, frequencies, equipment and land.",
+
+  "EXPANDING_THE_HERITAGE":"EXPANDING THE HERITAGE",
+  "EXPANDING_THE_HERITAGE_DESCRIPTION":"In addition to the frequency of Radio Libertad (570 AM), in the late 80s and early 90s, the foundation acquired 3 new radio frequencies and developed the radio stations: Radio FUNDACIÓN (91.5 FM), 103 LA RADIO JOVEN (103.1 FM) And 89 YA (89.1 FM).",
+
+  "IMPORTANT_DECISIONS":"IMPORTANT DECISIONS",
+  "IMPORTANT_DECISIONS_DESCRIPTION":"In order to focus on its main mission and avoid actions that deviate from the ideal of Don Samuel, the Foundation decided in 2004 to rent radio stations and expand their objectives and programs in the social area.",
+
+  "NOWADAYS":"NOWADAYS",
+  "NOWADAYS_DESCRIPTION":"Revenues from the rental of broadcasters, along with rent revenues from other commercial premises, are the main source of income for the Foundation's Youth Leadership Program. Which, by supporting the education has managed to insert professionally thousands of young people from the canton of Desamparados, thus contributing to the country's progress.",
+
+  "YOUTH_LEADERSHIP_PROGRAM":"YOUTH LEADERSHIP PROGRAM",
+  "YOUTH_LEADERSHIP_PROGRAM_DESCRIPTION":"The purpose of the Youth Leadership Program (PLJ) is to develop <br> young multiplier leaders who promote social progress <br> in the community.",
+
+  "REQUIREMENTS":"Requirements",
+  "REQUIREMENTS_DESCRIPTION":"If your answer is positive to the following questions then you can be part of the community of young leaders of our beloved canton.",
+
+  "ASK_YOURSELF":"Ask yourself",
+  "QUESTION_ONE":"1. Are you a young man willing to work for the good of your family, your community and your educational institution?",
+  "QUESTION_TWO":"2. Do you have ideas that can become social projects to improve your community or others?",
+  "QUESTION_THREE":"3. Do you like to communicate clearly with others and express your ideas?",
+  "QUESTION_FOUR":"4. Do you like working in organized groups to meet common goals?",
+  "QUESTION_FIVE":"5. Do you have a good academic performance and the desire to collaborate in the development of your school or university?",
+  "QUESTION_SIX":"6. Do you feel good leading groups and social projects focused on achieving social improvements?",
+
+  "FORMALITIES":"Formalities",
+  "FORMALITIES_ONE":"1. Be a Costa Rican young person of birth, native to Desamparados or have at least three years of residence in the canton.",
+  "FORMALITIES_TWO":"2. Qualifying student with academic excellence.",
+  "FORMALITIES_THREE":"3. Student of Technical or Academic College, public institutions or subsidized by the state in day or night mode.",
+  "FORMALITIES_FOUR":"4. Student of a state university or college.",
+
+  "IMM":"MARÍA MARIANO INSTITUTION",
+  "IMM_DESCRIPTION":"We are a network of people who, together with the cause of the Foundation, continue to extend the work that Don Samuel Bermúdez founded.",
+  "IMM_DESCRIPTION_TWO":"Inspired by his parents (Mr. Mariano Bermúdez and Mrs. María Jiménez) Mr. Samuel Bermúdez Jiménez created the IMM to involve his relatives and the workers of Fundación Ciudadelas de Libertad.",
+  "IMM_TOGETHER":"¡TOGETHER FOR THE",
+  "IMM_SAME":"SAME",
+  "IMM_CAUSE":"CAUSE!",
+
+  "LEADERSHIP_CENTER":"LEADERSHIP CENTER",
+  "LEADERSHIP_CENTER_DESCRIPTION":"We are pleased to invite you to the different opportunities and experiences offered by the Ciudadelas de Libertad Foundation Leadership Center.",
+  "CALENDAR_CONSTRUCTION":"CALENDAR UNDER CONSTRUCTION",
+  "CALENDAR_CONSTRUCTION_DESCRIPTION":"MAINTAIN THE EXPECTATION OF THE ACTIVITIES TO BE PLANNED",
+
+  "FCL_NEWS":"FCL NEWS",
+  "FCL_NEWS_DESCRIPTION":"Fundación Ciudadelas de Libertad is pleased to share all the initiatives, projects and other actions that contribute to the growth of our Youth Leadership Program.",
+
+  "GIVE_US_A_HAND":"Give us a hand",
+  "GIVE_US_A_HAND_DESCRIPTION":"If you or your company want to join the network of young leaders through volunteering or TCU; as well as helping us grow our Youth Leadership Program, fill out this form so that we can contact you as soon as possible.",
+  "GIVE_US_A_HAND_NAME":"FULL NAME",
+  "GIVE_US_A_HAND_COMPANY":"COMPANY OR INSTITUTION",
+  "GIVE_US_A_HAND_TYPE_OF_COLABORATION":"TYPE OF COLLABORATION",
+  "GIVE_US_A_HAND_VOLUNTEERING":"VOLUNTEERING",
+  "GIVE_US_A_HAND_INTERNSHIP":"INTERNSHIP",
+  "GIVE_US_A_HAND_MONEY_DONATIONS":"DONATIONS IN MONEY",
+  "GIVE_US_A_HAND_SPECIES_DONATIONS":"DONATIONS IN SPECIES",
+  "GIVE_US_A_HAND_AREA_OF_WORK":"PROFESSIONAL AREA WHICH IS DEDICATED",
+  "GIVE_US_A_HAND_PHONE":"PHONE",
+  "GIVE_US_A_HAND_EMAIL":"EMAIL",
+  "GIVE_US_A_HAND_DISCLOUSURE":"We will never share your email with anyone else.",
+  "GIVE_US_A_HAND_SUBMIT":"Submit",
+
+  "CONTACT_US_LETS_TALK":"Let's talk",
+  "CONTACT_US_NAME":"Name",
+  "CONTACT_US_EMAIL":"Mail",
+  "CONTACT_US_MESSAGE":"Message",
+  "CONTACT_US_SUBMIT":"Submit"
+
 }
