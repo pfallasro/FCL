@@ -46,12 +46,16 @@
           <li><a ng-href="#/imm">IMM</a></li>
           <li><a ng-href="#/contactanos" translate="MAIN_CONTACT_US"></a></li>
         </ul>
-      </div>
-
-      <div class="translate-container" ng-controller="LanguageCtrl">
+        <div class="translate-container" ng-controller="LanguageCtrl">
         <button class="btn btn-default" ng-show="lang == 'en'" ng-click="changeLanguage('es')" translate="BUTTON_LANG_ES"></button>
         <button class="btn btn-default" ng-show="lang == 'es'" ng-click="changeLanguage('en')" translate="BUTTON_LANG_EN"></button>
+        </div>
       </div>
+
+      <!-- <div class="translate-container" ng-controller="LanguageCtrl">
+        <button class="btn btn-default" ng-show="lang == 'en'" ng-click="changeLanguage('es')" translate="BUTTON_LANG_ES"></button>
+        <button class="btn btn-default" ng-show="lang == 'es'" ng-click="changeLanguage('en')" translate="BUTTON_LANG_EN"></button>
+      </div> -->
     </div>
   </div>
 </div>

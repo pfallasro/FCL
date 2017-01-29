@@ -273,6 +273,26 @@ body {
       .navbar-collapse {
         float: left;
         border: 0;
+        width: 86%;
+        .translate-container {
+          width: 35%;
+          float: right;
+          button {
+            border: 3px solid #fff;
+            border-radius: 0;
+            font-size: inherit;
+            color: inherit;
+            background: none;
+            cursor: pointer;
+            padding: 15px 35px;
+            display: inline-block;
+            margin: -15px 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 700;
+            float: right;
+          }
+        }
       }
     }
     .navbar-nav {
@@ -2029,6 +2049,21 @@ body {
       }
     }
   }
+
+  #main-nav {
+    .navbar-default {
+      .container {
+        .navbar-collapse {
+          .translate-container {
+            float: right;
+            margin: 20px 0;
+          }
+        }
+      }
+     
+    }
+  }
+
   /* Quienes Somos */
   .quienes-somos {
     .valores {
@@ -2277,7 +2312,21 @@ and (orientation : landscape) {
       }
     }
   }
-
+  #main-nav {
+    .navbar-default {
+      .container {
+        .navbar-collapse {
+          .translate-container {
+            width: 32%;
+            float: left;
+            margin-bottom: 25px;
+            margin-left: 0;
+          }
+        }
+      }
+     
+    }
+  }
   .liderazgo-container {
      .proyectos-banner {
        .proyectos-desc {
@@ -2630,6 +2679,22 @@ and (orientation : landscape) {
 and (min-device-width : 414px) 
 and (max-device-width : 736px) 
 and (orientation : landscape) {
+  #main-nav {
+    .navbar-default {
+      .container {
+        .navbar-collapse {
+          .translate-container {
+            float: left;
+            button {
+              margin: -15px 0;
+              float: left;
+            }           
+          }
+        }
+      }
+     
+    }
+  }
   .modal-dialog {
     width: 93%;
     margin: 20px auto;
@@ -2660,6 +2725,18 @@ and (orientation : landscape) {
 
 /* iPhone 6 screen size */
 @media screen and (max-width: 375px) {
+  #main-nav {
+    .navbar-default {
+      .container {
+        .navbar-collapse {
+          .translate-container {
+            margin-left: 8px;         
+          }
+        }
+      }
+     
+    }
+  }
   #main-nav .navbar-default .container .navbar-collapse {
     width: 108.7%;
   }
@@ -2717,6 +2794,9 @@ and (orientation : landscape) {
 
   #main-nav .navbar-default .container .navbar-collapse {
     width: 110.2%;
+    .translate-container {
+      margin-left: 25px;
+    }
   }
   .mobile-nav {
     button {
