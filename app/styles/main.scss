@@ -704,6 +704,10 @@ body {
     display: none;
   }
 
+  .gallery-thumb {
+    display: none;
+  }
+
   .row {
     .juventudes-video {
       margin: 0 auto;
@@ -2034,6 +2038,24 @@ body {
     }
   }
 
+  /* Festival Juventudes */
+
+  .festival-juventudes {
+    .festival-carousel {
+      display: none;
+    }
+    .gallery-thumb {
+      display: block;
+      width: 84%;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+    .row {
+      .juventudes-video {
+        width: 80%;
+      }
+    }
+  }
 }
 
 /* iPad in landscape */
@@ -2356,7 +2378,13 @@ and (orientation : landscape) {
         width: 98%;
       }
     }
+    .row {
+      .juventudes-video {
+        height: 186px;
+      }
+    }
   }
+
 
   /* Centro de Liderazgo */
 
