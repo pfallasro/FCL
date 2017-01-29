@@ -10,8 +10,24 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   padding: 0.2em 0;
 }
 
+@font-face {
+    font-family: 'franklin_gothicregular';
+    src: url('../fonts/franklin-gothic-webfont.woff2') format('woff2'),
+         url('../fonts/franklin-gothic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'FranklinGothic-Book';
+  src: url('../fonts/FranklinGothic-Book.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  // font-family: 'Open Sans', sans-serif;
+  font-family: 'FranklinGothic-Book';
   padding: 0;
   color: #6d6e70;
 
@@ -67,6 +83,7 @@ body {
     font-weight: 900;
     text-align: center;
     margin: 20px 0;
+    font-family: 'franklin_gothicregular';
   }
 }
 
@@ -353,7 +370,7 @@ body {
         a:link {
           background-color: #0e76bd;
           border-top: 1px solid #fff;
-          padding: 10px 0 10px 20px;
+          padding: 10px 0 10px 30px;
           text-align: left;
         }
         a:link:hover {
