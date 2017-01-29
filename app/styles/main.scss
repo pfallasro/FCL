@@ -800,6 +800,42 @@ body {
   .servicios-banner-text-mobile {
     display: none;
   }
+  .row {
+    .serv-container {
+      width: 15%;
+      float: left;
+      margin: 0 10px;
+      background: #00a79d;
+      color: #fff;
+      height: 250px;
+      padding: 10px;
+      font-size: 12px;
+      margin-bottom: 60px;
+      h4 {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 10px;
+      }
+    }
+    .serv-container:first-child {
+      background-color: #7e3f98
+    }
+    .serv-container:nth-child(2) {
+      background-color: #ef4036;
+    }
+    .serv-container:nth-child(3) {
+      background-color: #f7931d;
+    }
+    .serv-container:nth-child(4) {
+      background-color: #6ebe44;
+    }
+    .serv-container:nth-child(5) {
+      background-color: #1b75bb;
+    }
+    .serv-container:last-child {
+      margin-right: 0;
+      background-color: #00a79d
+    }
+  }
 }
 
 /* Carrera */
@@ -2092,6 +2128,15 @@ body {
       }
     }
   }
+
+  .servicios {
+    .row {
+      .serv-container {
+        width: 30%;
+        height: 213px;
+      }
+    }
+  }
 }
 
 /* iPad in landscape */
@@ -2176,6 +2221,17 @@ and (orientation : landscape) {
     .quienes-somos-text-col {
       p {
         text-align: initial;
+      }
+    }
+  }
+
+  /* Servicios */
+
+  .servicios {
+    .row {
+      .serv-container {
+        width: 31%;
+        height: 165px;
       }
     }
   }
@@ -2379,6 +2435,21 @@ and (orientation : landscape) {
       }
       h2, p {
         width: 98%;
+      }
+    }
+  }
+
+  /* Servicios */
+
+  .servicios {
+    .row {
+      .serv-container {
+        width: 95%;
+        height: 140px;
+        margin-bottom: 10px;
+      }
+      .serv-container:last-child {
+        margin-bottom: 60px;
       }
     }
   }
@@ -2596,6 +2667,15 @@ and (orientation : landscape) {
       }
     }
   }
+  /* Servicios */
+
+  .servicios {
+    .row {
+      .serv-container {
+        height: 160px;
+      }
+    }
+  }
 }
 
 @media only screen 
@@ -2687,6 +2767,8 @@ and (orientation : landscape) {
       }
     }
   }
+
+
 }
 
 @media only screen 
@@ -2815,6 +2897,16 @@ and (orientation : landscape) {
       }
       h2, p {
         width: 98%;
+      }
+    }
+    .row {
+      .serv-container {
+        width: 95%;
+        height: 125px;
+        margin-bottom: 10px;
+      }
+      .serv-container:last-child {
+        margin-bottom: 60px;
       }
     }
   }
