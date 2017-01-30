@@ -48,7 +48,7 @@ body {
 }
 
 .main-info-heading {
-  background-color: #0168b3;
+  background-color: #005EA5;
   color: #fff;
   text-transform: uppercase;
   padding: 3% 0;
@@ -79,7 +79,7 @@ body {
     }
   }
   .big-title-info {
-    color: #0168b3;
+    color: #005EA5;
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 900;
@@ -231,8 +231,8 @@ body {
 #main-nav {
   .navbar-default {
     padding: 10px 0;
-    background-color: #006bb3;
-    // border-color: #006bb3;
+    background-color: #005ea5;
+    // border-color: #005ea5;
     color: #fff;
     font-size: 12px;
     border-radius: 0;
@@ -337,7 +337,7 @@ body {
   padding-left: 0;
   padding-right: 28px;
   list-style: none;
-  background-color: #e95853;
+  background-color: #C54832;
   height: 40px;
   ul {
     margin: 0;
@@ -365,10 +365,10 @@ body {
     text-decoration:none;
   }
   a.nav-link {
-    background-color:#e95853;
+    background-color:#C54832;
   }
   a.even {
-    background-color: #0e76bd;
+    background-color: #005ea5;
   }
   li {
     float:left;
@@ -390,7 +390,7 @@ body {
       }
       li {
         a:link {
-          background-color: #0e76bd;
+          background-color: #005ea5;
           border-top: 1px solid #fff;
           padding: 10px 0 10px 30px;
           text-align: left;
@@ -412,7 +412,7 @@ body {
     ul.even-sub-menu {
       li {
         a:link {
-          background-color: #e95853;
+          background-color: #C54832;
         }
         a:link:hover {
           background-color: #ab0b25;
@@ -468,11 +468,11 @@ body {
       -o-transform:skew(-35deg);
       transform:skew(-35deg);
 
-      background-color: #0e76bd;
+      background-color: #005ea5;
       margin-top: -7px;
     }
     ul.even-sub-menu {
-      background-color: #e95853;
+      background-color: #C54832;
     }
   }
 }
@@ -856,7 +856,7 @@ body {
       }
     }
     .serv-container:first-child {
-      background-color: #7e3f98
+      background-color: #71408C
     }
     .serv-container:nth-child(2) {
       background-color: #ef4036;
@@ -865,10 +865,10 @@ body {
       background-color: #f7931d;
     }
     .serv-container:nth-child(4) {
-      background-color: #6ebe44;
+      background-color: #A2BD31;
     }
     .serv-container:nth-child(5) {
-      background-color: #1b75bb;
+      background-color: #005ea5;
     }
     .serv-container:last-child {
       margin-right: 0;
@@ -1075,12 +1075,12 @@ body {
         display: inline-block;
         .imm-span1 {
           font-weight: 700;
-          color: #006bb3;
+          color: #005ea5;
           font-size: 22px;
         }
         .imm-span2 {
           font-weight: 800;
-          color: #006bb3;
+          color: #005ea5;
           font-size: 50px;
           margin-top: -18px;
           margin-bottom: -30px;
@@ -1130,13 +1130,13 @@ body {
   display: inline-block;
   width: 100%;
   color: rgb(255, 255, 255);
-  background-color: #e95853;
+  background-color: #C54832;
   padding: 5px;
   text-align: center;
   text-transform: uppercase;
 }
 .event-list > li:nth-child(even) > time {
-  background-color: #0e76bd;
+  background-color: #005ea5;
 }
 .event-list > li > time > span {
   display: none;
@@ -1332,7 +1332,7 @@ body {
     .proyectos-list {
       div {
         height: 170px;
-        background-color: #7e3f98;
+        background-color: #71408C;
         margin: 12px;
         width: 166px;
         float: left;
@@ -1381,7 +1381,7 @@ body {
         background-image: url('../images/proyectos-sociales/hasa.png');
       }
       .pro-equidad {
-        background-color: #1b75bb;
+        background-color: #005ea5;
         background-size: 140px 53px;
         background-image: url('../images/proyectos-sociales/equidad.png');
       }
@@ -1460,11 +1460,11 @@ body {
 #poderModal {
   .modal-dialog {
     .modal-header {
-      background: #7e3f98;
+      background: #71408C;
     }
     .modal-footer {
       button {
-        background: #7e3f98;
+        background: #71408C;
       }
     }
   }
@@ -1577,11 +1577,11 @@ body {
 #equidadModal {
   .modal-dialog {
     .modal-header {
-      background: #1b75bb;
+      background: #005ea5;
     }
     .modal-footer {
       button {
-        background: #1b75bb;
+        background: #005ea5;
       }
     }
   }
@@ -1636,7 +1636,7 @@ body {
         .timeline-title {
           margin-top: 0;
           font-weight: 600;
-          color: #0168b3;
+          color: #005EA5;
         }
       }
       .timeline-body {
@@ -1696,7 +1696,7 @@ body {
       background-color: #2e6da4 !important;
     }
     .timeline-badge.success {
-      background-color: #1b75bb !important;
+      background-color: #005ea5 !important;
     }
     .timeline-badge.warning {
       background-color: #f7931d !important;
@@ -1806,7 +1806,7 @@ body {
 //         transform-origin: 0 0;
 //         padding-right: 38px;
 //         transform: skew(35deg);
-//         background-color: #0e76bd;
+//         background-color: #005ea5;
 //         margin-bottom: 15px;
 //         a {
 //           span {
@@ -1814,7 +1814,7 @@ body {
 //             display: block;
 //             color: #fff;
 //             padding: 8px 0;
-//             background-color: #0e76bd;
+//             background-color: #005ea5;
 //             margin-left: -12px;
 //             text-align: left;
 //             padding-left: 20px;
@@ -1825,10 +1825,10 @@ body {
 //         }
 //       }
 //       .selected-opt {
-//         background-color: #e95853;
+//         background-color: #C54832;
 //         a {
 //           span {
-//             background-color: #e95853;
+//             background-color: #C54832;
 //           }
 //         }
 //       }
@@ -1937,7 +1937,7 @@ body {
           }
         }
         .navbar-collapse {
-          background-color: #e95853;
+          background-color: #C54832;
           width: 107.7%;
           margin-top: 10px;
           overflow: hidden;
@@ -2571,7 +2571,7 @@ and (orientation : landscape) {
     }
     .servicios-banner-text-mobile {
       display: block;
-      background: #7e3f98;
+      background: #71408C;
       color: #fff;
       margin-bottom: 35px;
       img {
@@ -2978,7 +2978,7 @@ and (orientation : landscape) {
     }
     .servicios-banner-text-mobile {
       display: block;
-      background: #7e3f98;
+      background: #71408C;
       color: #fff;
       margin-bottom: 35px;
       img {
@@ -3088,7 +3088,7 @@ and (orientation : landscape) {
 }
 
 .mobile-nav {
-  background-color: #e95853;
+  background-color: #C54832;
   color: #fff;
   margin: 10px 0 10px 0;
   button {
@@ -3110,7 +3110,7 @@ and (orientation : landscape) {
     }
   }
   button.even {
-    background-color: #0e76bd;
+    background-color: #005ea5;
   }
   .navbar-collapse {
     width: 100%;
@@ -3125,7 +3125,7 @@ and (orientation : landscape) {
           font-size: 10px;
         }
         a:hover {
-          background-color: #e95853;
+          background-color: #C54832;
         }
       }
       li:last-child {
@@ -3134,7 +3134,7 @@ and (orientation : landscape) {
     }
   }
   .even {
-    background-color: #0e76bd;
+    background-color: #005ea5;
   }
 }
 
@@ -3150,7 +3150,7 @@ and (orientation : landscape) {
 //   background-size: 16%;
 //   padding-left: 66px;
 //   height: 66px;
-//   color: #0168b3;
+//   color: #005EA5;
 //   font-weight: 600;
 //   text-transform: uppercase;
 //   display: inline-block;
@@ -3193,7 +3193,7 @@ and (orientation : landscape) {
 //       min-height: 160px;
 //     }
 //     a {
-//       background-color: #0168b3;
+//       background-color: #005EA5;
 //       padding: 5px;
 //       width: 100%;
 //       display: inline-block;
