@@ -938,7 +938,16 @@ body {
       background: #8cc63e;
       border-color: #8cc63e;
     }
+    
   }
+}
+
+.carrera-info {
+  padding: 75px 75px 20px;
+}
+
+.carrera-info-2 {
+  padding: 0 75px 0 75px;
 }
 
 /* Centro de Liderazgo */
@@ -2686,6 +2695,14 @@ and (orientation : landscape) {
         width: 98%;
       }
     }
+  }
+
+  .inscrib-form {
+    width: 100%;
+  }
+
+  .carrera-info, .carrera-info-2 {
+    width: 100%;
   }
 
   /* Servicios */
