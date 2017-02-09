@@ -486,78 +486,6 @@ body {
   }
 }
 
-/* en el tiempo */
-.en-el-tiempo {
-  display: flex;
-  width: 100%;
-  // margin-left: -160px;
-  background-image: url("../images/en-el-tiempo-banner.jpg");
-  background-repeat: repeat-x;
-  background-size: 100%;
-  min-height: 580px;
-  .en-el-tiempo-banner {
-    background: rgba(227, 24, 55, 0.42);
-    height: 284px;
-    // margin-top: 20%;
-    // margin-top: 20.4%;
-    align-self: flex-end;
-    width: 100%;
-    float: left;
-    padding: 20px 0;
-    color: #fff;
-    div {
-      width: 50%;
-      float: left;
-      img {
-        float: right;
-        padding: 40px;
-      }
-      .en-el-tiempo-desc {
-        border-left: 1px solid #fff;
-        padding: 20px;
-      }
-    }
-    .tiempo-historia {
-      width: 50%;
-      // margin-left: -218px;
-      div {
-        width: 65%;
-      }
-      div:first-child {
-        width: 35%;
-      }
-    }
-    .nuestro-fundador {
-      p {
-        width: 50%;
-        float: left;
-      }
-      ul {
-        list-style: none;
-        border-top: 1px solid #fff;
-        width: 80%;
-        padding: 12px 19px;
-        margin-top: 60px;
-        border-right: 1px solid #fff;
-        border-left: 1px solid #fff;
-        li {
-          div {
-            width: 120px;
-            height: 120px;
-            background-color: #00a79d;
-            border-radius: 50%;
-            margin: 0 4%;
-            img {
-              padding: 11px;
-              width: 100%;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
 /* Quienes Somos */
 
 .quienes-somos {
@@ -713,6 +641,51 @@ body {
     }
   }
   .danos-una-mano-banner-text-mobile {
+    display: none;
+  }
+}
+
+/* En el tiempo */
+
+.en-el-tiempo {
+  .en-el-tiempo-banner {
+    position: relative;
+    margin-bottom: 55px;
+    img {
+      width: 100%;
+    }
+    .en-el-tiempo-banner-text {
+      background: rgba(226, 24, 54, 0.62);
+      color: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      img {
+        width: 75px;
+        height: 75px;
+        float: left;
+        margin: 78px 40px 35px 65px;
+      }
+      .samuel-img {
+        width: auto;
+        height: 130px;
+        margin: -50px 0 0 0;
+      }
+      p, h2 {
+        width: 504px;
+        float: left;
+        margin-top: 22px;
+      }
+      .fundador-text {
+        float: right;
+        width: 20%;
+        margin-top: 12px;
+        padding-top: 12px;
+        border-top: 1px solid #fff;
+      }
+    }
+  }
+  .en-el-tiempo-banner-text-mobile {
     display: none;
   }
 }
@@ -2202,6 +2175,29 @@ body {
       }
     }
   }
+
+
+  /* En el tiempo */
+
+  .en-el-tiempo {
+    .en-el-tiempo-banner {
+      .en-el-tiempo-banner-text {
+        float: left;
+        position: initial;
+        background: rgb(181, 48, 67);
+        .samuel-img {
+          margin: 0;
+        }
+        .fundador-text {
+          width: 50%;
+          text-align: center;
+        }
+      }
+    }
+    .timeline {
+      margin-top: 55%;
+    }
+  }
 }
 
 /* iPad in landscape */
@@ -2298,6 +2294,35 @@ and (orientation : landscape) {
         width: 31%;
         height: 165px;
       }
+    }
+  }
+  /* En el tiempo */
+
+  .en-el-tiempo {
+    .en-el-tiempo-banner {
+      .en-el-tiempo-banner-text {
+        // float: left;
+        // position: initial;
+        // background: rgb(181, 48, 67);
+        bottom: initial;
+        background: #b53043;
+        .samuel-img {
+          // margin: 0;
+          height: 85px;
+          margin: -57px 0 0 45px;
+        }
+        .fundador-text {
+          // width: 50%;
+          // text-align: center;
+          width: 18%;
+        }
+        p, h2 {
+          width: 400px;
+        }
+      }
+    }
+    .timeline {
+      margin-top: 34%;
     }
   }
 }
@@ -2464,6 +2489,32 @@ and (orientation : landscape) {
           margin-top: 43px;
         }
       }
+    }
+  }
+
+  /* En el tiempo */
+
+  .en-el-tiempo {
+    .en-el-tiempo-banner {
+      .en-el-tiempo-banner-text {
+        .samuel-img {
+          margin: 0 38px;
+          height: 100px;
+        }
+        img {
+          margin: 20px;
+        }
+        h2, p {
+          width: 68%;
+        }
+        p {
+          margin-top: 0;
+        }
+      }
+
+    }
+    .timeline {
+      margin-top: 75%;
     }
   }
 
@@ -2734,6 +2785,25 @@ and (orientation : landscape) {
       }
     }
   }
+
+  /* En el tiempo */
+
+  .en-el-tiempo {
+    .timeline {
+      li {
+        .timeline-badge {
+          width: 75px;
+          height: 75px;
+          left: 0;
+          img {
+            width: 84%;
+            margin: 6px;
+          }
+        }
+      }
+    }
+
+  }
 }
 
 /* iPhone 6 screen size */
@@ -2796,6 +2866,18 @@ and (orientation : landscape) {
           .carousel-caption {
             padding: 60px 13% 25px 13%;
           }
+        }
+      }
+    }
+  }
+  .en-el-tiempo {
+    .en-el-tiempo-banner {
+      .en-el-tiempo-banner-text {
+        img {
+          margin: 20px;
+        }
+        .samuel-img {
+          margin: 0 113px;
         }
       }
     }
