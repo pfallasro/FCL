@@ -337,7 +337,7 @@ body {
   padding-left: 0;
   padding-right: 28px;
   list-style: none;
-  background-color: #C54832;
+  background-color: #005ea5;
   height: 40px;
   ul {
     margin: 0;
@@ -365,10 +365,19 @@ body {
     text-decoration:none;
   }
   a.nav-link {
-    background-color:#C54832;
+    background-color:#005ea5;
   }
-  a.even {
-    background-color: #005ea5;
+  // a.even {
+  //   background-color: #005ea5;
+  // }
+  a.centro-lid {
+    background-color: #DB9600;
+  }
+  a.noticias {
+    background-color: #C54832;
+  }
+  a.danosunamano {
+   background-color: #A2BD31;
   }
   li {
     float:left;
@@ -412,14 +421,14 @@ body {
     ul.even-sub-menu {
       li {
         a:link {
-          background-color: #C54832;
+          background-color: #005ea5;
         }
         a:link:hover {
-          background-color: #ab0b25;
+          background-color: #023861;
         }
       }
       span {
-        background-color: #ab0b25;
+        background-color: #023861;
       }
     }
   }
@@ -472,7 +481,7 @@ body {
       margin-top: -7px;
     }
     ul.even-sub-menu {
-      background-color: #C54832;
+      background-color: #005ea5;
     }
   }
 }
@@ -574,7 +583,7 @@ body {
                 list-style: none;
               }
             }
-            border-left: 1px solid #fff;
+            // border-left: 1px solid #fff;
             padding-left: 20px;
           }
           .quienes-somos-icon {
@@ -1055,7 +1064,7 @@ body {
       img {
         width: 115px;
         float: left;
-        border-right: 1px solid #fff;
+        // border-right: 1px solid #fff;
         padding-right: 15px;
         margin-right: 30px;
       }
@@ -1317,14 +1326,15 @@ body {
       position: absolute;
       bottom: 0;
       left: 0;
-      padding: 40px;
+      // padding: 40px;
     }
     .proyectos-desc div {
-      border-left: 1px solid #fff;
+      // border-left: 1px solid #fff;
       padding-left: 25px;
     }
     .proyectos-desc p:first-child {
       font-size: 28px;
+      margin-top: 23px;
     }
   }
 
@@ -1409,8 +1419,9 @@ body {
         width: 16%;
         float: left;
         border-left: 0;
-        border-right: 1px solid #fff;
+        // border-right: 1px solid #fff;
         margin-right: 30px;
+        margin-left: 20px;
         img {
           width: 120px;
         }
@@ -3088,7 +3099,7 @@ and (orientation : landscape) {
 }
 
 .mobile-nav {
-  background-color: #C54832;
+  background-color: #005ea5;
   color: #fff;
   margin: 10px 0 10px 0;
   button {
@@ -3110,7 +3121,7 @@ and (orientation : landscape) {
     }
   }
   button.even {
-    background-color: #005ea5;
+    background-color: #C54832;
   }
   .navbar-collapse {
     width: 100%;
