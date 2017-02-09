@@ -200,6 +200,9 @@ body {
 /* Responsive: Portrait tablets and up */
 /* iPad screen size */
 @media screen and (min-width: 768px) {
+  .carrera-ul.list-inline {
+    padding-left: 20px;
+  }
   .container {
     max-width: 1200px;
     // max-width: 960px;
@@ -2406,6 +2409,12 @@ and (orientation : landscape) {
 
 /* iPhone 6 Plus screen size */
 @media screen and (max-width: 414px) {
+  .carrera-ul.list-inline {
+    padding-left: 20px;
+    li {
+      width: 50%;
+    }
+  }
   .modal-dialog {
     width: 93%;
     margin: 20px auto;
@@ -2879,6 +2888,9 @@ and (orientation : landscape) {
 and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation : landscape) {
+  .carrera-ul.list-inline {
+    padding-left: 20px;
+  }
   #main-nav {
     .navbar-default {
       .container {
