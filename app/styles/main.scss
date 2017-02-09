@@ -690,6 +690,29 @@ body {
   }
 }
 
+#contactanos {
+  background-image: url('../images/contacto.jpg');
+  background-size: 100%;
+  background-repeat:  no-repeat;
+  background-position: 0 -155px;
+  height: 520px;
+  .row {
+    width: 50%;
+    margin: 0 auto;
+    padding: 45px 0;
+    h2, label {
+      color: #fff;
+      text-shadow: 2px 2px #4e4949;
+    }
+    .form-control {
+      background-color: rgba(255, 255, 255, 0.62);
+    }
+    button {
+      float: right;
+    }
+  }
+}
+
 /* Festival Juventudes */
 
 .festival-juventudes {
@@ -2036,6 +2059,15 @@ body {
     }
   }
 
+  #contactanos {
+    background-position: 0 -45px;
+    height: 437px;
+    .row {
+      width: 88%;
+      padding: 0;
+    }
+  }
+
   #main-nav {
     .navbar-default {
       .container {
@@ -2380,6 +2412,23 @@ and (orientation : landscape) {
     }
     .liderazgo-text {
       font-size: 14px;
+    }
+  }
+
+  #contactanos {
+    height: 355px;
+    background-color: #C54832;
+    background-position: 26px 64px;
+    background-size: auto 62%;
+    .row {
+      .form-group {
+        width: 45%;
+        float: left;
+        margin-right: 10px;
+      }
+      .form-group.mensaje {
+        width: 100%;
+      }
     }
   }
 
@@ -2853,6 +2902,10 @@ and (orientation : landscape) {
       }
     }
   }
+
+  #contactanos {
+    background-position: 8px 64px;
+  }
 }
 
 @media only screen
@@ -2881,6 +2934,9 @@ and (orientation : landscape) {
         }
       }
     }
+  }
+  #contactanos {
+    background-position: 0;
   }
 }
 
@@ -2928,6 +2984,11 @@ and (orientation : landscape) {
       }
     }
   }
+
+  #contactanos {
+    background-position: 0 64px;
+  }
+
   /* IMM */
 
   .imm {
@@ -2981,6 +3042,11 @@ and (orientation : landscape) {
         }
       }
     }
+  }
+
+  #contactanos {
+    height: 485px;
+    background-color: #C54832;
   }
   /* IMM */
 
