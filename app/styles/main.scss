@@ -505,6 +505,9 @@ body {
       .item {
         height: 398px;
         .carousel-caption {
+          h4 {
+            font-family: 'FranklinGothic-Demi';
+          }
           background: rgba(0, 103, 177, 0.55);
           width: 100%;
           margin-bottom: -20px;
@@ -567,13 +570,16 @@ body {
     }
     .mision-heading {
       background-image: url('../images/mision-icon.png');
+      font-family: 'FranklinGothic-Demi';
     }
     .vision-heading {
       background-image: url('../images/vision-icon.png');
       background-size: 39px 35px;
+      font-family: 'FranklinGothic-Demi';
     }
     .valores-heading {
       width: 95px;
+      font-family: 'FranklinGothic-Demi';
     }
     .valores-text {
       width: 80%;
@@ -653,6 +659,9 @@ body {
         width: 63%;
         float: left;
       }
+      h2 {
+        font-family: 'FranklinGothic-Demi';
+      }
     }
   }
   .danos-una-mano-banner-text-mobile {
@@ -684,6 +693,9 @@ body {
       p, h2 {
         width: 63%;
         float: left;
+      }
+      h2 {
+        font-family: 'FranklinGothic-Demi';
       }
     }
   }
@@ -723,6 +735,9 @@ body {
         float: left;
         margin-top: 22px;
       }
+      h2 {
+        font-family: 'FranklinGothic-Demi';
+      }
       .fundador-text {
         float: right;
         width: 20%;
@@ -750,6 +765,9 @@ body {
     h2, label {
       color: #fff;
       text-shadow: 2px 2px #4e4949;
+    }
+    h2 {
+      font-family: 'FranklinGothic-Demi';
     }
     .form-control {
       background-color: rgba(255, 255, 255, 0.62);
@@ -784,6 +802,9 @@ body {
       p, h2 {
         width: 63%;
         float: left;
+      }
+      h2 {
+        font-family: 'FranklinGothic-Demi';
       }
       p {
         margin: 0 0 20px;
@@ -882,6 +903,9 @@ body {
         width: 63%;
         float: left;
       }
+      h2 {
+        font-family: 'FranklinGothic-Demi';
+      }
       p {
         margin: 0 0 20px;
       }
@@ -896,6 +920,7 @@ body {
       h1 {
         margin: 0 0 40px 10px;
         color: #71408C;
+        font-family: 'FranklinGothic-Demi';
       }
     }
     .serv-container {
@@ -911,6 +936,7 @@ body {
       h4 {
         border-bottom: 1px solid #fff;
         padding-bottom: 10px;
+        font-family: 'FranklinGothic-Demi';
       }
     }
     .serv-container:first-child {
@@ -945,6 +971,7 @@ body {
     h1 {
       color: #8cc63e;
       margin: 0 0 20px 0;
+      font-family: 'FranklinGothic-Demi';
     }
     width: 100%;
     margin: 0 auto;
@@ -1004,6 +1031,9 @@ body {
       p, h2 {
         width: 63%;
         float: left;
+      }
+      h2 {
+        font-family: 'FranklinGothic-Demi';
       }
     }
   }
@@ -1095,6 +1125,9 @@ body {
         width: 63%;
         float: left;
       }
+      h2 {
+        font-family: 'FranklinGothic-Demi';
+      }
     }
   }
   .prensa-banner-text-mobile {
@@ -1114,6 +1147,9 @@ body {
       width: 100%
     }
     .banner-text {
+      h3 {
+        font-family: 'FranklinGothic-Demi';
+      }
       position: absolute;
       bottom: 0;
       left: 0;
@@ -1144,7 +1180,7 @@ body {
         padding-right: 20px;
         display: inline-block;
         .imm-span1 {
-          font-weight: 700;
+          font-family: 'FranklinGothic-Demi';
           color: #005ea5;
           font-size: 22px;
         }
@@ -1397,6 +1433,7 @@ body {
     .proyectos-desc p:first-child {
       font-size: 28px;
       margin-top: 23px;
+      font-family: 'FranklinGothic-Demi';
     }
   }
 
@@ -1496,6 +1533,7 @@ body {
   .liderazgo-text {
     div {
       h3 {
+        font-family: 'FranklinGothic-Demi';
         color: #0067b1;
         text-align: center;
       }
@@ -1707,6 +1745,7 @@ body {
       margin-top: 20px;
       .timeline-heading {
         .timeline-title {
+          font-family: 'FranklinGothic-Demi';
           margin-top: 0;
           font-weight: 600;
           color: #005EA5;
