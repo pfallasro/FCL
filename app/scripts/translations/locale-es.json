@@ -107,8 +107,8 @@
   "YOUTH_LEADERSHIP_PROGRAM":"PROGRAMA DE LIDERAZGO JUVENIL",
   "YOUTH_LEADERSHIP_PROGRAM_DESCRIPTION":"El propósito del Programa de Liderazgo Juvenil (PLJ) es desarrollar <br> jóvenes líderes multiplicadores que impulsen el progreso social de <br> la comunidad.",
 
-  "REQUIREMENTS":"Requisitos",
-  "REQUIREMENTS_DESCRIPTION":"Si tu respuesta es positiva a las siguientes preguntas, entonces podés ser parte de la comunidad de jóvenes líderes de nuestro querido cantón.",
+  "REQUIREMENTS":"¿Cómo se logra el objetivo?",
+  "REQUIREMENTS_DESCRIPTION":"Este objetivo se logra por medio de dos puntos específicos:<br><br> 1. POTENCIALIZACIÓN DE CONCIENCIA SOCIAL <br><br>Desarrollo de experiencias vivenciales.<br>Propuesta y ejecución de Proyectos Sociales llevado a cabo por los estudiantes.<br>Acompañamiento Individual<br>Talleres de formación familiar<br>Grupos artísticos y culturales<br><br>2. OPORTUNIDADES EDUCATIVAS<br><br>Incentivos económicos<br>Apoyo académico en diversas materias<br>Preparación para ingreso a universidades públicas.<br>Programa de tutorías académicas<br>Acompañamiento vocacional",
 
   "ASK_YOURSELF":"Preguntate",
   "QUESTION_ONE":"1. ¿Sos un joven dispuesto a trabajar por el bien de tu familia, tu comunidad y tu institución educativa?",
@@ -120,8 +120,8 @@
 
   "FORMALITIES":"Formalidades",
   "FORMALITIES_ONE":"1. Ser una persona joven costarricense de nacimiento, nativa de Desamparados o tener al menos tres años de residir en el cantón.",
-  "FORMALITIES_TWO":"2. Estudiante que califique con excelencia académica.",
-  "FORMALITIES_THREE":"Estudiante de Colegio Técnico o Académico, de instituciones públicas o subsidiadas por el estado en modalidad diurno o nocturno.",
+  "FORMALITIES_TWO":"2. Estudiante que califique con excelencia académica, según parámetros del Programa de Liderazgo Juvenil.",
+  "FORMALITIES_THREE":"3. Estudiante de Colegio Técnico o Académico, de instituciones públicas o subsidiadas por el estado en modalidad diurno o nocturno.",
   "FORMALITIES_FOUR":"4. Estudiante de alguna Universidad estatal, Colegio Universitario o Parauniversitario.",
 
   "IMM":"INSTITUCIÓN MARÍA MARIANO",
