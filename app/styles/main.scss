@@ -18,6 +18,12 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'FranklinGothic-Demi';
+  src: url('../fonts/FranklinGothic-Demi.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'FranklinGothic-Book';
@@ -505,6 +511,12 @@ body {
           left: 0;
           padding: 20px 13% 60px 13%;
           .carousel-caption-col {
+            .quienes-somos-text-title {
+              font-family: 'FranklinGothic-Demi'; 
+            }
+            .quienes-somos-text {
+              text-align: justify;
+            }
             width: 50%;
             float: left;
             text-align: left;
