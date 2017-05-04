@@ -1167,48 +1167,54 @@ body {
       }
     }
   }
-  .imm-text {
-    margin-top: 40px;
-    .col-md-4 {
-      // background: #b8e5ce;
-      border-right: 1px solid gray;
-      padding-left: 0;
-      div {
-        background: rgba(56, 180, 73, 0.33);
-        width: 100%;
-        /* position: absolute; */
-        padding-right: 20px;
-        display: inline-block;
-        .imm-span1 {
-          font-family: 'FranklinGothic-Demi';
-          color: #005ea5;
-          font-size: 22px;
-        }
-        .imm-span2 {
-          font-weight: 800;
-          color: #005ea5;
-          font-size: 50px;
-          margin-top: -18px;
-          margin-bottom: -30px;
-        }
-        .imm-span3 {
-          font-weight: 800;
-          color: #009344;
-          font-size: 48px;
-        }
-        span {
-          width: 100%;
-          float: left;
-          text-align: right;
-          // background: #b8e5ce;
-        }
+  .col-md-8 {
+    p {
+      margin: 40px 0;
+    }
+    form {
+      width: 80%;
+      margin: 0 auto;
+      button {
+        width: 200px;
+        margin: 55px auto;
+        display: inherit;
       }
     }
-    .col-md-8 {
-      img {
-        margin: 0 auto;
-        display: flex;
-        width: 65%;
+  }
+  .imm-left {
+    border-right: 1px solid #6d6e70;
+    padding: 10px 0;
+    margin-top: 45px;
+    img {
+      width: 100%;
+      padding-right: 30px;
+    }
+    .imm-text {
+      background: rgba(56, 180, 73, 0.33);
+      width: 92%;
+      .imm-span1 {
+        font-family: 'FranklinGothic-Demi';
+        color: #005ea5;
+        font-size: 22px;
+      }
+      .imm-span2 {
+        font-weight: 800;
+        color: #005ea5;
+        font-size: 50px;
+        margin-top: -18px;
+        margin-bottom: -30px;
+        display: block;
+      }
+      .imm-span3 {
+        font-weight: 800;
+        color: #009344;
+        font-size: 48px;
+      }
+      span {
+        text-align: right;
+        width: 100%;
+        display: block;
+        padding-right: 10px;
       }
     }
   }
@@ -2335,6 +2341,16 @@ body {
       margin-top: 55%;
     }
   }
+
+  /* IMM */
+  
+  .imm {
+    .imm-left {
+      .imm-text {
+        width: 100%;
+      }
+    }
+  }
 }
 
 /* iPad in landscape */
@@ -2936,6 +2952,15 @@ and (orientation : landscape) {
       }
       h2, p {
         width: 98%;
+      }
+    }
+  }
+  /* IMM */
+
+  .imm {
+    .col-md-8 {
+      form {
+        width: 100%;
       }
     }
   }
