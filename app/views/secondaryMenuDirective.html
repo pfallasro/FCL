@@ -1,0 +1,44 @@
+<!-- desktop nav  -->
+<div class="desktop-nav">
+  <ul id="nav">
+    <li class="nav-figure"><a class="nav-link"  ng-href="#/proyectos"><span translate="SECONDARY_SOCIAL_PROJECTS"></span></a></li>
+    <li class="nav-figure"><a class="nav-link centro-lid" ng-href="#/centroLiderazgo"><span translate="SECONDARY_LIDERSHIP_CENTER"></span></a></li>
+    <li class="nav-figure"><a class="nav-link noticias" ng-href="#/prensa"><span translate="SECONDARY_PRESS"></span></a></li>
+    <li class="nav-figure"><a class="nav-link danosunamano" ng-href="#/danosunamano"><span translate="SECONDARY_GIVE_US_A_HAND"></span></a></li>
+    <li class="nav-figure"><a class="nav-link" ng-href="#/"><span translate="SECONDARY_SERVICES"></span></a>
+      <ul class="even-sub-menu">
+        <span></span>
+        <li><a ng-href="#/serviciosFCL" translate="SECONDARY_SERVICES_FCL"></a></li>
+        <li><a ng-href="#/festivalJuvenil" translate="SECONDARY_YOUTH_FESTIVAL"></a></li>
+        <li><a ng-href="#/carrera" translate="SECONDARY_LIBERTAD_RUN"></a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<!-- mobile nav  -->
+
+<div class="row mobile-nav">
+  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ProyectosSociales">
+    <a href="#/proyectos"><i class="fa fa-heart" aria-hidden="true"></i><span translate="SECONDARY_SOCIAL_PROJECTS"></span></a>
+  </button>
+  <button type="button" class="navbar-toggle collapsed even" data-toggle="collapse" data-target="#CentroDeLiderazgo">
+    <a href="#/centroLiderazgo"><i class="fa fa-users" aria-hidden="true"></i><span translate="SECONDARY_LIDERSHIP_CENTER"></span></a>
+  </button>
+  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#Prensa">
+    <a href="#/prensa"><i class="fa fa-newspaper-o" aria-hidden="true"></i><span translate="SECONDARY_PRESS"></span></a>
+  </button>
+  <button type="button" class="navbar-toggle collapsed even" data-toggle="collapse" data-target="#DanosUnaMano">
+    <a href="#/danosunamano"><i class="fa fa-hand-paper-o" aria-hidden="true"></i><span translate="SECONDARY_GIVE_US_A_HAND"></span></a>
+  </button>
+  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#Servicios">
+    <i class="fa fa-globe" aria-hidden="true"></i><span translate="SECONDARY_SERVICES"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="Servicios">
+    <ul class="nav navbar-nav">
+      <li><a ng-href="#/serviciosFCL" translate="SECONDARY_SERVICES_FCL"></a></li>
+      <li><a ng-href="#/festivalJuvenil" translate="SECONDARY_YOUTH_FESTIVAL"></a></li>
+      <li><a ng-href="#/carrera" translate="SECONDARY_LIBERTAD_RUN"></a></li>
+    </ul>
+  </div>
+</div>

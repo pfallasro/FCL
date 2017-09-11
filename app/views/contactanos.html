@@ -1,0 +1,30 @@
+<secondary-menu></secondary-menu>
+
+<section id="contactanos">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 translate="CONTACT_US_LETS_TALK"></h2>
+        </div>
+        <div class="col-md-12">
+          <form id="form-correo" method="POST">
+            <div class="form-group">
+              <label for="correo" class="control-label" translate="CONTACT_US_NAME"></label>
+              <input type="text" class="form-control" name="nombre" id="nombre" required/>
+            </div>
+            <div class="form-group">
+              <label for="correo" class="control-label" translate="CONTACT_US_EMAIL"></label>
+              <input type="email" class="form-control" name="correo" id="correo" required/>
+            </div>
+            <div class="form-group mensaje">
+              <label for="correo" class="control-label" translate="CONTACT_US_MESSAGE"></label>
+              <textarea name="mensaje" id="mensaje" rows="5" class="form-control" required></textarea>
+            </div>
+            <div class="form-group">
+              <div class="g-recaptcha" data-sitekey="6LdkIAYTAAAAAE1jh2HSAPao-JZUPcxVUupISlLh"
+                   data-expired-callback="reloadCaptcha"></div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg" translate="CONTACT_US_SUBMIT"></button>
+          </form>
+        </div>
+      </div>
+</section>
