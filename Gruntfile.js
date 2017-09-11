@@ -224,7 +224,7 @@ module.exports = function (grunt) {
         src: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
         ignorePath: /(\.\.\/){1,2}bower_components\//
       }
-    }, 
+    },
 
     // Compiles Sass to CSS and generates necessary files if requested
     compass: {
@@ -412,8 +412,10 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt}',
             '*.html',
+            'scripts/translations/*.json',
             'images/{,*/}*.{webp}',
-            'styles/fonts/{,*/}*.*'
+            'images/**/*.jpg',
+            'fonts/{,*/}*.*'
           ]
         }, {
           expand: true,
